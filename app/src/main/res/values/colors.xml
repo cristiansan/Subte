@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey">#202020</color>
     <color name="colorBlueLight">#40b6ff</color>
     <color name="colorRed">#ff4340</color>
     <color name="colorBlue">#0b65dc</color>
     <color name="colorGreen">#329c37</color>
-    <color name="colorPurple">#5935f5</color>
+    <color name="colorPurple">#9876ed</color>
     <color name="colorYellow">#fffc40</color>
+    <color name="colorOrange">#f97c4f</color>
 
 
 </resources>
