@@ -50,5 +50,11 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent);
     }
 
+    public void btnContact(View v)
+    {
+        Intent intent = new Intent(getApplicationContext(), Contact.class);
+        startActivity(intent);
+    }
+
 
 }

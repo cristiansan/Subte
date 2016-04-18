@@ -40,6 +40,10 @@
 
         </activity>
 
+        <activity android:name=".Contact">
+
+        </activity>
+
     </application>
 
 </manifest>
