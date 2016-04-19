@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Subte off-line Buenos Aires</string>
-    <string name="contact">Aplicación en progreso\n\nBásicamente te permite ver los nombres de las estaciones, combinaciones y (próximamente) las calles entre cada estación.</string>
+    <string name="contact">Aplicación en progreso\n\nBásicamente te permite ver los nombres de las estaciones, combinaciones y (próximamente) las calles entre cada estación.\n\nSi tienes sugerencias puedes escribirme acá:</string>
+    <string name="contact_email">cristiansan@gmail.com</string>
 </resources>
