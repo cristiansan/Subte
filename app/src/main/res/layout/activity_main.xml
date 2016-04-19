@@ -77,8 +77,10 @@
 
     <TextView
         android:id="@+id/Text"
+        android:textColor="#ffffff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorBlack"
         android:gravity="right"
         android:text="\u03C0"
         android:onClick="btnContact"/>
