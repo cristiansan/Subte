@@ -66,10 +66,32 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Balcarce"
                     />
 
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Defensa"
+                    />
+
+            </LinearLayout>
+
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -87,7 +109,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Bolivar"
                     />
 
             </LinearLayout>
@@ -103,13 +125,7 @@
                     android:background="@color/colorBlueLight"
 
                     />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+
 
             </LinearLayout>
 
@@ -124,34 +140,7 @@
                     android:background="@color/colorBlueLight"
 
                     />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
 
             </LinearLayout>
 
@@ -199,7 +188,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Perú"
                     />
 
             </LinearLayout>
@@ -220,7 +209,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Chacabuco"
                     />
 
             </LinearLayout>
@@ -241,52 +230,14 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Piedras"
                     />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
 
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
 
             //-----------------------------
 
@@ -327,7 +278,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Tacuarí"
                     />
 
             </LinearLayout>
@@ -348,7 +299,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Bernardo de Irigoyen"
                     />
 
             </LinearLayout>
@@ -369,52 +320,12 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Lima"
                     />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
 
 
             //--------------------------------------------------------------
@@ -456,7 +367,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Salta"
                     />
 
             </LinearLayout>
@@ -498,7 +409,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Santiago del Estero"
                     />
 
             </LinearLayout>
@@ -519,31 +430,12 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="San José"
                     />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
 
             //----------------------------------------------------
 
@@ -584,7 +476,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Saenz Peña, Luis (Pres)"
                     />
 
             </LinearLayout>
@@ -605,7 +497,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Cevallos, Virrey"
                     />
 
             </LinearLayout>
@@ -626,7 +518,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Solís"
                     />
 
             </LinearLayout>
@@ -647,31 +539,12 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Callao"
                     />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
 
             //------------------------------------------------------------
 
@@ -712,7 +585,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Combate, De los Pozos"
                     />
 
             </LinearLayout>
@@ -733,7 +606,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Sarandí"
                     />
 
             </LinearLayout>
@@ -754,7 +627,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Rincón"
                     />
 
             </LinearLayout>
@@ -775,31 +648,12 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Pasco"
                     />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
 
             //---------------------------------------------
 
@@ -840,7 +694,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Pichincha"
                     />
 
             </LinearLayout>
@@ -861,73 +715,12 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Matheu"
                     />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
 
             //-----------------------------------------------------
 
@@ -968,7 +761,49 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Alberti"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Saavedra"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Misiones"
                     />
 
             </LinearLayout>
@@ -1010,49 +845,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Jujuy, Av."
                     />
 
             </LinearLayout>
@@ -1096,7 +889,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Catamarca"
                     />
 
             </LinearLayout>
@@ -1117,7 +910,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="La Rioja"
                     />
 
             </LinearLayout>
@@ -1138,7 +931,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Urquiza, Gral."
                     />
 
             </LinearLayout>
@@ -1159,7 +952,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="24 de Noviembre"
                     />
 
             </LinearLayout>
@@ -1180,7 +973,27 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="--------------------"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Sanchez De Bustamante"
                     />
 
             </LinearLayout>
@@ -1224,7 +1037,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Liniers Virrey"
                     />
 
             </LinearLayout>
@@ -1245,7 +1058,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Maza"
                     />
 
             </LinearLayout>
@@ -1266,7 +1079,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Boedo, Av."
                     />
 
             </LinearLayout>
@@ -1287,7 +1100,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Colombres"
                     />
 
             </LinearLayout>
@@ -1308,7 +1121,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Castro Barros, Av."
                     />
 
             </LinearLayout>
@@ -1373,7 +1186,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Yapeyú"
                     />
 
             </LinearLayout>
@@ -1394,7 +1207,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Bocayuva, Quintino"
                     />
 
             </LinearLayout>
@@ -1415,7 +1228,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Rawson"
                     />
 
             </LinearLayout>
@@ -1436,7 +1249,47 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Marmol, Jose"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Muñiz"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="La Plata, Av."
                     />
 
             </LinearLayout>
@@ -1481,7 +1334,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Senillosa"
                     />
 
             </LinearLayout>
@@ -1502,7 +1355,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Acevedo, Eduardo"
                     />
 
             </LinearLayout>
@@ -1523,7 +1376,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="El Maestro"
                     />
 
             </LinearLayout>
@@ -1544,7 +1397,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Doblas"
                     />
 
             </LinearLayout>
@@ -1565,7 +1418,49 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Campichuelo"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Balcarce, Florencio"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Ambrosetti, Juan B."
                     />
 
             </LinearLayout>
@@ -1609,7 +1504,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Hidalgo"
                     />
 
             </LinearLayout>
@@ -1630,7 +1525,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Parral"
                     />
 
             </LinearLayout>
@@ -1651,51 +1546,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Colpayo"
                     />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
             </LinearLayout>
 
             //----------------------------------
@@ -1737,7 +1589,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Riojas"
                     />
 
             </LinearLayout>
@@ -1758,7 +1610,27 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Repetto, Nicolas, Dr."
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Lora, Felix"
                     />
 
             </LinearLayout>
@@ -1779,7 +1651,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="García Lorca, Federico"
                     />
 
             </LinearLayout>
@@ -1800,7 +1672,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Gainza, Martín De, Gral."
                     />
 
             </LinearLayout>
@@ -1821,10 +1693,54 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Espinosa"
                     />
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Ortiguera"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Chirimay"
+                    />
+
+            </LinearLayout>
+
+
 
             //----------------------------------
 
