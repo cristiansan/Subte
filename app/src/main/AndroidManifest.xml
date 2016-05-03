@@ -16,27 +16,33 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".A">
+        <activity android:name=".A"
+            >
 
         </activity>
 
-        <activity android:name=".B">
+        <activity android:name=".B"
+            >
 
         </activity>
 
-        <activity android:name=".C">
+        <activity android:name=".C"
+            >
 
         </activity>
 
-        <activity android:name=".D">
+        <activity android:name=".D"
+            >
 
         </activity>
 
-        <activity android:name=".E">
+        <activity android:name=".E"
+            >
 
         </activity>
 
-        <activity android:name=".H">
+        <activity android:name=".H"
+            >
 
         </activity>
 

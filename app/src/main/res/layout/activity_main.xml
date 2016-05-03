@@ -82,7 +82,7 @@
         android:layout_height="wrap_content"
         android:background="@color/colorBlack"
         android:gravity="right"
-        android:text="\u03C0"
+        android:text="@string/version"
         android:onClick="btnContact"/>
 
 
