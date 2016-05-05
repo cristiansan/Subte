@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    android:background="@android:color/black"
+    android:background="@color/colorBlack"
     android:orientation="vertical">
 
     <TextView
@@ -20,4 +20,20 @@
         android:src="@android:drawable/ic_dialog_email"
         android:onClick="btnContactUs"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/who_am_i"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+
+    </ScrollView>
 </LinearLayout>
