@@ -11,13 +11,16 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
+
     }
 
     public void btnA(View v)
     {
         Intent intent = new Intent(getApplicationContext(), A.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.fade_in, R.anim.slide_right);
     }
 
     public void btnB(View v)

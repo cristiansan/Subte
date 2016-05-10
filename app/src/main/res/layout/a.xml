@@ -21,11 +21,15 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+
                 android:text="Linea A"
                 android:textSize="50dp"
                 android:textStyle="bold"
                 android:background="@color/colorBlueLight"
                 android:gravity="center" />
+
+            //imagen a la izq
+            <!--android:drawableLeft="@android:drawable/btn_dialog"-->
 
             //-----------------------------
 
