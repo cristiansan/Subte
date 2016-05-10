@@ -495,7 +495,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Av. Corrientes"
+                    android:text="Av. Pueyrredon 500"
                     />
 
             </LinearLayout>
@@ -626,7 +626,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Pueyrredon 100"
                     />
 
             </LinearLayout>
@@ -710,7 +710,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Venezuela"
+                    android:text="Venezuela 2500"
                     />
 
             </LinearLayout>
@@ -838,7 +838,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Humberto Primo"
+                    android:text="Humberto Primo (Av. Jujuy 1100)"
                     />
 
             </LinearLayout>
@@ -1010,7 +1010,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Inclán"
+                    android:text="Inclán (Av. Jujuy 1700)"
                     />
 
             </LinearLayout>
@@ -1136,7 +1136,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Av. Caseros"
+                    android:text="Av. Caseros 2600"
                     />
 
             </LinearLayout>
@@ -1438,6 +1438,26 @@
                     android:text="Hospitales"
                     android:textStyle="bold"
                     android:textSize="25dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorYellow"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Av. Almafuerte 300"
+                    />
 
             </LinearLayout>
 

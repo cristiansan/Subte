@@ -70,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Balcarce"
+                    android:text="Balcarce (Hipólito Yrigoyen 300)"
                     />
 
             </LinearLayout>
@@ -192,7 +192,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Perú"
+                    android:text="Perú (Av.de Mayo 500)"
                     />
 
             </LinearLayout>
@@ -282,7 +282,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Tacuarí"
+                    android:text="Tacuarí (Av.de Mayo 900)"
                     />
 
             </LinearLayout>
@@ -324,7 +324,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Lima"
+                    android:text="Lima (Av.de Mayo 1101)"
                     />
 
             </LinearLayout>
@@ -480,7 +480,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Saenz Peña, Luis (Pres)"
+                    android:text="Saenz Peña, Luis (Av.de Mayo 1400)"
                     />
 
             </LinearLayout>
@@ -589,7 +589,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Combate, De los Pozos"
+                    android:text="Combate, De los Pozos (Av.Rivadavia 1800)"
                     />
 
             </LinearLayout>
@@ -652,7 +652,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Pasco"
+                    android:text="Pasco (Av.Rivadavia 2200)"
                     />
 
             </LinearLayout>
@@ -765,7 +765,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Alberti"
+                    android:text="Alberti (Av.Rivadavia 2400)"
                     />
 
             </LinearLayout>
