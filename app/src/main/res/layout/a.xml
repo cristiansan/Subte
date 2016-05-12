@@ -28,7 +28,7 @@
             android:layout_height="35dp"
             android:layout_weight="1"
             android:src="@android:drawable/ic_menu_recent_history"
-            android:visibility="invisible"
+            android:onClick="btnTimer"
             />
 
         <ImageView

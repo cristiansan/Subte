@@ -6,9 +6,6 @@
     tools:context="com.offline.subte.MainActivity"
     android:orientation="vertical">
 
-
-
-
     <Button
         android:id="@+id/A"
         android:layout_width="match_parent"
