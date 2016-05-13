@@ -4,78 +4,351 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@android:color/background_dark">
+    android:background="@android:color/background_dark"
+    android:padding="10dp">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:drawableEnd="@drawable/a"
+        android:paddingStart="90dp"
+        android:paddingEnd="30dp"
+        android:text="Línea"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        />
+
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/a"
-        android:text="test dialogo"
-        android:textSize="30dp"
-        android:textColor="#ffffff"/>
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/a"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/b"
-        android:text="test dialogo"
-        android:textSize="30dp"
-        android:textColor="#ffffff"/>
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Dias Habiles"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_weight="5"/>
+
+        <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Primer Subte"
+           android:textColor="#ffffff"
+           android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ultimo Subte"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="San Pedrito"
+            android:textColor="#ffffff"
+            android:layout_weight="3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05.00"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22.28"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Plaza de Mayo"
+            android:textColor="#ffffff"
+            android:layout_weight="3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05.00"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22.56"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    //----------------------------------
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/c"
-        android:text="test dialogo"
-        android:textSize="30dp"
-        android:textColor="#ffffff"/>
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sábados"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_weight="5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primer Subte"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ultimo Subte"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="San Pedrito"
+            android:textColor="#ffffff"
+            android:layout_weight="3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05.00"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22.28"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Plaza de Mayo"
+            android:textColor="#ffffff"
+            android:layout_weight="3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05.00"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22.56"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    //----------------------------------
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/d"
-        android:text="test dialogo"
-        android:textSize="30dp"
-        android:textColor="#ffffff"/>
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Domingos / Feriados"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/e"
-        android:text="test dialogo"
-        android:textSize="30dp"
-        android:textColor="#ffffff"/>
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
 
-    <TextView
-        android:layout_width="wrap_content"
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_weight="5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primer Subte"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ultimo Subte"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/h"
-        android:text="test dialogo"
-        android:textSize="30dp"
-        android:textColor="#ffffff"/>
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
 
-    <TextView
-        android:layout_width="wrap_content"
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="San Pedrito"
+            android:textColor="#ffffff"
+            android:layout_weight="3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08.00"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22.08"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/p"
-        android:text="test dialogo"
-        android:textSize="30dp"
-        android:textColor="#ffffff"/>
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="test dialogo"
-        android:textSize="30dp"
-        android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Plaza de Mayo"
+            android:textColor="#ffffff"
+            android:layout_weight="3"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="test dialogo"
-        android:textSize="30dp"
-        android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08.00"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22.36"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
 
 
 </LinearLayout>
