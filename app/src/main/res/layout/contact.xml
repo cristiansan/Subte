@@ -4,14 +4,16 @@
     android:layout_height="match_parent"
     android:padding="10dp"
     android:background="@color/colorBlack"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/contact"
         android:textSize="20dp"
-        android:textColor="#ffffff"/>
+        android:textColor="#ffffff"
+        android:gravity="center" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -33,7 +35,8 @@
         android:layout_marginBottom="20dp"
         android:text="@string/who_am_i"
         android:textSize="20dp"
-        android:textColor="#ffffff"/>
+        android:textColor="#ffffff"
+        android:gravity="center" />
 
     </ScrollView>
 </LinearLayout>
