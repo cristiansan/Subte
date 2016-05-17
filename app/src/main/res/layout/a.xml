@@ -63,8 +63,6 @@
                 android:background="@color/colorBlueLight"
                 android:gravity="center" />
 
-            //imagen a la izq
-            <!--android:drawableLeft="@android:drawable/btn_dialog"-->
 
             //-----------------------------
 

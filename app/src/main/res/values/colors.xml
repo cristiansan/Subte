@@ -3,12 +3,12 @@
 
     <color name="colorBlack">#000000</color>
     <color name="colorGrey">#607d8b</color>
-    <color name="colorBlueLight">#64b5f6</color>
-    <color name="colorRed">#f44336</color>
-    <color name="colorBlue">#2979ff</color>
-    <color name="colorGreen">#1caf50</color>
-    <color name="colorPurple">#9c27b0</color>
-    <color name="colorYellow">#ffeb3b</color>
+    <color name="colorBlueLight">#5fb2f4</color>
+    <color name="colorRed">#e74233</color>
+    <color name="colorBlue">#2e7bfc</color>
+    <color name="colorGreen">#189b46</color>
+    <color name="colorPurple">#9131d6</color>
+    <color name="colorYellow">#dccd4a</color>
     <color name="colorOrange">#ff9800</color>
 
 
