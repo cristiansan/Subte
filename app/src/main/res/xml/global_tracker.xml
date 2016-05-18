@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">300</integer>
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <screenName name="com.offline.subte.MainActivity">
+        Principal
+    </screenName>
+    <screenName name="com.offline.subte.A">
+        Linea A
+    </screenName>
+    <screenName name="com.offline.subte.B">
+        Linea B
+    </screenName>
+    <screenName name="com.offline.subte.C">
+        Linea C
+    </screenName>
+    <screenName name="com.offline.subte.D">
+        Linea D
+    </screenName>
+    <screenName name="com.offline.subte.E">
+        Linea E
+    </screenName>
+    <screenName name="com.offline.subte.H">
+        Linea H
+    </screenName>
+    <screenName name="com.offline.subte.Contact">
+        Contacto
+    </screenName>
+
+
+
+    <string name="ga_trackingId">UA-23589071-6</string>
+</resources>

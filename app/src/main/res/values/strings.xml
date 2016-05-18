@@ -3,6 +3,6 @@
     <string name="contact">Si tenés sugerencias podés escribirme acá:</string>
     <string name="who_am_i">Esta APP básicamente te permite ver los nombres de las estaciones, horarios, combinaciones y (próximamente) las calles entre cada estación.\n\nSi tenés información de las líneas restantes, calles, alturas y querés enviármelas podes hacerlo por email y pondré tu contacto como colaborador en esta APP.</string>
     <string name="contact_email">cristiansan@gmail.com</string>
-    <string name="version">versión 1.4 \u03C0</string>
+    <string name="version">versión 1.5 \u03C0</string>
 
 </resources>
