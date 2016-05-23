@@ -22,12 +22,16 @@
             android:foregroundGravity="left"
             android:onClick="btnMain"/>
 
-        <ImageView
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="35dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@android:drawable/ic_menu_recent_history"
-            android:onClick="btnTimer"            />
+            android:text="Horario"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_menu_recent_history"
+            android:textColor="@color/colorGrey"
+            android:onClick="btnTimer"
+            />            />
 
         <ImageView
             android:layout_width="match_parent"

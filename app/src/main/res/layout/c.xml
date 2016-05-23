@@ -22,11 +22,14 @@
             android:foregroundGravity="left"
             android:onClick="btnMain"/>
 
-        <ImageView
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="35dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@android:drawable/ic_menu_recent_history"
+            android:text="Horario"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_menu_recent_history"
+            android:textColor="@color/colorGrey"
             android:onClick="btnTimer"
             />
 
@@ -74,7 +77,7 @@
                     android:background="@color/colorBlue"
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
@@ -82,47 +85,13 @@
                     android:textStyle="bold"
                     android:textSize="25dp"/>
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
                     android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:text=" (Av.J.Ramos Mejía 1400)"
+                    android:textColor="@color/colorGrey"/>
 
             </LinearLayout>
 
@@ -143,6 +112,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -164,6 +134,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -185,6 +156,51 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -202,13 +218,21 @@
                     android:background="@color/colorBlue"
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
-                    android:text="General San Martin"
+                    android:text="Gral.San Martin"
                     android:textStyle="bold"
                     android:textSize="25dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text=" (Av.Santa Fe 800)"
+                    android:textColor="@color/colorGrey"/>
 
             </LinearLayout>
 
@@ -229,48 +253,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -292,6 +275,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -313,6 +297,51 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -330,55 +359,22 @@
                     android:background="@color/colorBlue"
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Lavalle"
                     android:textStyle="bold"
                     android:textSize="25dp"/>
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
                     android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:text=" (Esmeralda 500)"
+                    android:textColor="@color/colorGrey"/>
 
             </LinearLayout>
 
@@ -399,6 +395,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -420,6 +417,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -441,6 +439,51 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -462,13 +505,45 @@
                     android:background="@color/colorRed"
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Diagonal Norte"
                     android:textStyle="bold"
                     android:textSize="25dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text=" (Sarmiento 800)"
+                    android:textColor="@color/colorGrey"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
 
             </LinearLayout>
 
@@ -489,69 +564,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -573,6 +586,51 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -593,55 +651,22 @@
                     android:background="@color/colorBlueLight"
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Avenida de Mayo"
                     android:textStyle="bold"
                     android:textSize="25dp"/>
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
                     android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
 
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:text=" (Av.de Mayo 900)"
+                    android:textColor="@color/colorGrey"/>
 
             </LinearLayout>
 
@@ -662,6 +687,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -683,6 +709,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -704,6 +731,51 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -721,55 +793,22 @@
                     android:background="@color/colorBlue"
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Moreno"
                     android:textStyle="bold"
                     android:textSize="25dp"/>
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
                     android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:text=" (Bdo.de Irigoyen 300)"
+                    android:textColor="@color/colorGrey"/>
 
             </LinearLayout>
 
@@ -790,6 +829,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -811,6 +851,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -832,6 +873,51 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -849,7 +935,7 @@
                     android:background="@color/colorPurple"
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
@@ -857,47 +943,12 @@
                     android:textStyle="bold"
                     android:textSize="25dp"/>
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
                     android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:text=" (Bdo.de Irigoyen 700)"
+                    android:textColor="@color/colorGrey"/>
 
             </LinearLayout>
 
@@ -918,6 +969,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -939,6 +991,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -960,6 +1013,51 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -977,7 +1075,7 @@
                     android:background="@color/colorBlue"
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
@@ -985,47 +1083,14 @@
                     android:textStyle="bold"
                     android:textSize="25dp"/>
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
                     android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:text=" (Bdo.de Irigoyen 1100)"
+                    android:textColor="@color/colorGrey"/>
+
+
 
             </LinearLayout>
 
@@ -1046,6 +1111,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -1067,6 +1133,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -1088,6 +1155,51 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -1105,7 +1217,7 @@
                     android:background="@color/colorBlue"
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
@@ -1113,47 +1225,12 @@
                     android:textStyle="bold"
                     android:textSize="25dp"/>
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
                     android:layout_height="match_parent"
-                    android:background="@color/colorBlue"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:text=" (Lima 1600)"
+                    android:textColor="@color/colorGrey"/>
 
             </LinearLayout>
 
@@ -1174,6 +1251,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -1195,6 +1273,7 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>
@@ -1216,6 +1295,51 @@
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlue"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Calles"
+                    android:visibility="invisible"
                     />
 
             </LinearLayout>

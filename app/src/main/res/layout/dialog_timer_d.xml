@@ -27,6 +27,8 @@
                 android:text="(Viaje entre cabeceras: 26 minutos)"
                 android:gravity="center"
                 android:textColor="#ffffff"
+                android:layout_marginBottom="20dp"
+
                 />
 
 
