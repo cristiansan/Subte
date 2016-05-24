@@ -1,99 +1,124 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.offline.subte.MainActivity"
-    android:orientation="vertical">
 
-    <Button
-        android:id="@+id/A"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_weight="1"
-        android:text="A"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:background="@color/colorBlueLight"
-        android:onClick="btnA"/>
 
-    <Button
-        android:id="@+id/B"
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_weight="1"
-        android:text="B"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:background="@color/colorRed"
-        android:onClick="btnB"/>
-
-    <Button
-        android:id="@+id/C"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_weight="1"
-        android:text="C"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:background="@color/colorBlue"
-        android:onClick="btnC"/>
-
-    <Button
-        android:id="@+id/D"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_weight="1"
-        android:text="D"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:background="@color/colorGreen"
-        android:onClick="btnD"/>
-
-    <Button
-        android:id="@+id/E"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_weight="1"
-        android:text="E"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:background="@color/colorPurple"
-        android:onClick="btnE"/>
-
-    <Button
-        android:id="@+id/H"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_weight="1"
-        android:text="H"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:background="@color/colorYellow"
-        android:onClick="btnH"/>
-
-    <TextView
-        android:id="@+id/Text"
-        android:textColor="#ffffff"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
         android:background="@color/colorBlack"
-        android:gravity="right"
-        android:text="@string/version"
-        android:onClick="btnContact"/>
+        >
 
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <Button
+                android:id="@+id/A"
+                android:scaleType="center"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:text="Subte A"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="@color/colorBlueLight"
+                android:onClick="btnA"
+                android:layout_margin="5dp"
+                android:clickable="true"/>
 
 
+            <Button
+                android:id="@+id/B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:text="Subte B"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="@color/colorRed"
+                android:onClick="btnB"
+                android:layout_margin="5dp"/>
 
+        </TableRow>
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
+            <Button
+                android:id="@+id/C"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:text="Subte C"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="@color/colorBlue"
+                android:onClick="btnC"
+                android:layout_margin="5dp"/>
 
+            <Button
+                android:id="@+id/D"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:text="Subte D"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="@color/colorGreen"
+                android:onClick="btnD"
+                android:layout_margin="5dp"/>
+        </TableRow>
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
+            <Button
+                android:id="@+id/E"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:text="Subte E"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="@color/colorPurple"
+                android:onClick="btnE"
+                android:layout_margin="5dp"/>
 
+            <Button
+                android:id="@+id/H"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:text="Subte H"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="@color/colorYellow"
+                android:onClick="btnH"
+                android:layout_margin="5dp"/>
+        </TableRow>
+        <TextView
+            android:id="@+id/Text"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:paddingEnd="15dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorBlack"
+            android:gravity="right"
+            android:text="@string/version"
+            android:onClick="btnContact"/>
+    </TableLayout>
 
-
-
-
-</LinearLayout>

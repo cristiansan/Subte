@@ -14,32 +14,37 @@
         android:orientation="horizontal"
         android:background="@color/colorBlue">
 
-        <ImageView
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@android:drawable/ic_menu_revert"
-            android:foregroundGravity="left"
+            android:text="Lineas"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_menu_sort_by_size"
+            android:textColor="#e6e6e6"
             android:onClick="btnMain"/>
+
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Horario"
+            android:text="Horarios"
+            android:textColor="#e6e6e6"
             android:gravity="center"
             android:drawableTop="@android:drawable/ic_menu_recent_history"
-            android:textColor="@color/colorGrey"
             android:onClick="btnTimer"
             />
 
-        <ImageView
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@android:drawable/ic_menu_share"
-            android:layout_gravity="end"
-            android:visibility="invisible"
+            android:text="Compartir"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_menu_share"
+            android:textColor="#e6e6e6"
+            android:onClick="btnShare"
             />
 
     </LinearLayout>
