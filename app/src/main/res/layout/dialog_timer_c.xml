@@ -25,7 +25,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="(Viaje entre cabeceras: 13 minutos)"
+                android:text="@string/cabeceras_c"
                 android:gravity="center"
                 android:textColor="#ffffff"
                 android:layout_marginBottom="20dp"
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:paddingEnd="5dp"
             android:gravity="end"
-            android:text="Primer Subte"
+            android:text="@string/primer_subte"
             android:textColor="#ffffff"
             android:layout_weight="1"/>
 
@@ -73,7 +73,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:paddingEnd="5dp"
-            android:text="Ultimo Subte"
+            android:text="@string/ultimo_subte"
             android:gravity="end"
             android:textColor="#ffffff"
             android:layout_weight="1"/>
@@ -189,7 +189,7 @@
             android:paddingEnd="5dp"
             android:paddingBottom="5dp"
             android:gravity="end"
-            android:text="Primer Subte"
+            android:text="@string/primer_subte"
             android:textColor="#ffffff"
             android:layout_weight="1"/>
 
@@ -197,7 +197,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingEnd="5dp"
-            android:text="Ultimo Subte"
+            android:text="@string/ultimo_subte"
             android:gravity="end"
             android:textColor="#ffffff"
             android:layout_weight="1"/>
@@ -313,7 +313,7 @@
             android:paddingBottom="5dp"
             android:paddingEnd="5dp"
             android:gravity="end"
-            android:text="Primer Subte"
+            android:text="@string/primer_subte"
             android:textColor="#ffffff"
             android:layout_weight="1"/>
 
@@ -322,7 +322,7 @@
             android:layout_height="wrap_content"
             android:paddingEnd="5dp"
             android:gravity="end"
-            android:text="Ultimo Subte"
+            android:text="@string/ultimo_subte"
             android:textColor="#ffffff"
             android:layout_weight="1"/>
 

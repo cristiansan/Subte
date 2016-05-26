@@ -5,24 +5,55 @@
         If you have information to fix, or any comment please contact me.</string>
     <string name="contact_email">cristiansan@gmail.com</string>
     <string name="choose_email">Choose your email</string>
+    <string name="lineas">Lines</string>
+    <string name="horarios">Schedules</string>
+    <string name="compartir">Share</string>
+    <string name="primer_subte">First Train</string>
+    <string name="ultimo_subte">Last Train</string>
     <string name="version">version 1.7 \u03C0</string>
 
     //Linea A
     <string name="linea_a">Line A</string>
+    <string name="cabeceras_a">(Trip time between terminals: 26 minutes)</string>
+    <string name="frecuencia_dias_habiles_a">Weekdays (3,30 min)</string>
+    <string name="frecuencia_sabados_a">Saturday (7,00 min)</string>
+    <string name="frecuencia_domingos_a">Días Hábiles (8,00 min)</string>
 
     //Linea B
     <string name="linea_b">Line B</string>
+    <string name="cabeceras_b">(Trip time between terminals: 27 minutes)</string>
+    <string name="frecuencia_dias_habiles_b">Weekdays (3,00 min)</string>
+    <string name="frecuencia_sabados_b">Saturday (7,00 min)</string>
+    <string name="frecuencia_domingos_b">Sunday and Holydays (8,00 min)</string>
+
 
     //Linea C
     <string name="linea_c">Line C</string>
+    <string name="cabeceras_c">(Trip time between terminals: 13 minutes)</string>
+    <string name="frecuencia_dias_habiles_c">Weekdays (3,30 min)</string>
+    <string name="frecuencia_sabados_c">Saturday (6,00 min)</string>
+    <string name="frecuencia_domingos_c">Sunday and Holydays (7,30 min)</string>
 
     //Linea D
     <string name="linea_d">Line D</string>
+    <string name="cabeceras_d">(Trip time between terminals: 26 minutes)</string>
+    <string name="frecuencia_dias_habiles_d">Weekdays (3,00 min)</string>
+    <string name="frecuencia_sabados_d">Saturday (7,00 min)</string>
+    <string name="frecuencia_domingos_d">Sunday and Holydays (7,00 min)</string>
 
     //Linea E
     <string name="linea_e">Line E</string>
+    <string name="cabeceras_e">(Trip time between terminals: 24 minutes)</string>
+    <string name="frecuencia_dias_habiles_e">Weekdays (5,00 min)</string>
+    <string name="frecuencia_sabados_e">Saturday (8,00 min)</string>
+    <string name="frecuencia_domingos_e">Sunday and Holydays (8,00 min)</string>
+
 
     //Linea H
     <string name="linea_h">Line H</string>
+    <string name="cabeceras_h">(Trip time between terminals: 18 minutes)</string>
+    <string name="frecuencia_dias_habiles_h">Weekdays (5,45 min)</string>
+    <string name="frecuencia_sabados_h">Saturday (8,00 min)</string>
+    <string name="frecuencia_domingos_h">Sunday and Holydays (10,00 min)</string>
 
 </resources>

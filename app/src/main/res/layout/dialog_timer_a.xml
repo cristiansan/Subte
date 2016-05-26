@@ -23,7 +23,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="(Viaje entre cabeceras: 26 minutos)"
+                android:text="@string/cabeceras_a"
                 android:gravity="center"
                 android:textColor="#ffffff"
                 android:layout_marginBottom="20dp"
@@ -35,7 +35,7 @@
         android:layout_height="0dp"
         android:padding="5dp"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Días Hábiles (03:30 min)"
+        android:text="@string/frecuencia_dias_habiles_a"
         android:gravity="center"
         android:textColor="#ffffff"
         android:layout_gravity="center_horizontal"
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:paddingEnd="5dp"
             android:gravity="end"
-            android:text="Primer Subte"
+            android:text="@string/primer_subte"
             android:textColor="#ffffff"
             android:layout_weight="1"/>
 
@@ -71,7 +71,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:paddingEnd="5dp"
-            android:text="Ultimo Subte"
+            android:text="@string/ultimo_subte"
             android:gravity="end"
             android:textColor="#ffffff"
             android:layout_weight="1"/>
@@ -162,7 +162,7 @@
         android:layout_height="0dp"
         android:padding="5dp"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Sábados (07:00 min)"
+        android:text="@string/frecuencia_sabados_a"
         android:gravity="center"
         android:textColor="#ffffff"
         android:layout_gravity="center_horizontal"
@@ -187,7 +187,7 @@
             android:paddingEnd="5dp"
             android:paddingBottom="5dp"
             android:gravity="end"
-            android:text="Primer Subte"
+            android:text="@string/primer_subte"
             android:textColor="#ffffff"
             android:layout_weight="1"/>
 
@@ -195,7 +195,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingEnd="5dp"
-            android:text="Ultimo Subte"
+            android:text="@string/ultimo_subte"
             android:gravity="end"
             android:textColor="#ffffff"
             android:layout_weight="1"/>
@@ -286,7 +286,7 @@
         android:layout_height="0dp"
         android:padding="5dp"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Domingos / Feriados (08:00 min)"
+        android:text="@string/frecuencia_domingos_a"
         android:gravity="center"
         android:textColor="#ffffff"
         android:layout_gravity="center_horizontal"
@@ -311,7 +311,7 @@
             android:paddingBottom="5dp"
             android:paddingEnd="5dp"
             android:gravity="end"
-            android:text="Primer Subte"
+            android:text="@string/primer_subte"
             android:textColor="#ffffff"
             android:layout_weight="1"/>
 
@@ -320,7 +320,7 @@
             android:layout_height="wrap_content"
             android:paddingEnd="5dp"
             android:gravity="end"
-            android:text="Ultimo Subte"
+            android:text="@string/ultimo_subte"
             android:textColor="#ffffff"
             android:layout_weight="1"/>
 

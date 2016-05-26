@@ -4,6 +4,53 @@
     <string name="who_am_i">Esta APP básicamente te permite ver los nombres de las estaciones, horarios, combinaciones y (próximamente) las calles entre cada estación.\n\nSi tenés información de las líneas restantes, calles, alturas y querés enviármelas podes hacerlo por email y pondré tu contacto como colaborador en esta APP.</string>
     <string name="contact_email">cristiansan@gmail.com</string>
     <string name="choose_email">Selecciona tu email</string>
+    <string name="lineas">Lineas</string>
+    <string name="horarios">Horarios</string>
+    <string name="compartir">Compartir</string>
+    <string name="primer_subte">Primer Subte</string>
+    <string name="ultimo_subte">Ultimo Subte</string>
     <string name="version">versión 1.7 \u03C0</string>
+
+    //Linea A
+    <string name="linea_a">Linea A</string>
+    <string name="cabeceras_a">(Viaje entre cabeceras: 26 minutos)</string>
+    <string name="frecuencia_dias_habiles_a">Días Hábiles (3,30 min)</string>
+    <string name="frecuencia_sabados_a">Sábados (7,00 min)</string>
+    <string name="frecuencia_domingos_a">Domingos y Feriados (8,00 min)</string>
+
+    //Linea B
+    <string name="linea_b">Linea B</string>
+    <string name="cabeceras_b">(Viaje entre cabeceras: 27 minutos)</string>
+    <string name="frecuencia_dias_habiles_b">Días Hábiles (3,00 min)</string>
+    <string name="frecuencia_sabados_b">Sábados (7,00 min)</string>
+    <string name="frecuencia_domingos_b">Domingos y Feriados (8,00 min)</string>
+
+    //Linea C
+    <string name="linea_c">Linea C</string>
+    <string name="cabeceras_c">(Viaje entre cabeceras: 13 minutos)</string>
+    <string name="frecuencia_dias_habiles_c">Días Hábiles (3,30 min )</string>
+    <string name="frecuencia_sabados_c">Sábados (6,00 min)</string>
+    <string name="frecuencia_domingos_c">Domingos y Feriados (7,30 min)</string>
+
+    //Linea D
+    <string name="linea_d">Linea D</string>
+    <string name="cabeceras_d">(Viaje entre cabeceras: 26 minutos)</string>
+    <string name="frecuencia_dias_habiles_d">Días Hábiles (3,00 min)</string>
+    <string name="frecuencia_sabados_d">Sábados (7,00 min)</string>
+    <string name="frecuencia_domingos_d">Domingos y Feriados (7,00 min)</string>
+
+    //Linea E
+    <string name="linea_e">Linea E</string>
+    <string name="cabeceras_e">(Viaje entre cabeceras: 24 minutos)</string>
+    <string name="frecuencia_dias_habiles_e">Días Hábiles (5,00 min)</string>
+    <string name="frecuencia_sabados_e">Sábados (8,00 min)</string>
+    <string name="frecuencia_domingos_e">Domingos y Feriados (8,00 min)</string>
+
+    //Linea H
+    <string name="linea_h">Linea H</string>
+    <string name="cabeceras_h">(Viaje entre cabeceras: 18 minutos)</string>
+    <string name="frecuencia_dias_habiles_h">Días Hábiles (5,45 min)</string>
+    <string name="frecuencia_sabados_h">Sábados (8,00 min)</string>
+    <string name="frecuencia_domingos_h">Domingos y Feriados (10,00 min)</string>
 
 </resources>
