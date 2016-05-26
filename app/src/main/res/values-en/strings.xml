@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Subte off-line from Buenos Aires</string>
+    <string name="contact">If you have any question, write me:</string>
+    <string name="who_am_i">This APP allow you to see the Subway names, times, combinations and (coming soon) street names.\n\n
+        If you have information to fix, or any comment please contact me.</string>
+    <string name="contact_email">cristiansan@gmail.com</string>
+    <string name="choose_email">Choose your email</string>
+    <string name="version">version 1.7 \u03C0</string>
+
+    //Linea A
+    <string name="linea_a">Line A</string>
+
+    //Linea B
+    <string name="linea_b">Line B</string>
+
+    //Linea C
+    <string name="linea_c">Line C</string>
+
+    //Linea D
+    <string name="linea_d">Line D</string>
+
+    //Linea E
+    <string name="linea_e">Line E</string>
+
+    //Linea H
+    <string name="linea_h">Line H</string>
+
+</resources>
