@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Subte off-line from Buenos Aires</string>
     <string name="contact">If you have any question, write me:</string>
+    <string name="contact_us">Contact me   </string>
     <string name="who_am_i">This APP allow you to see the Subway names, times, combinations and (coming soon) street names.\n\n
         If you have information to fix, or any comment please contact me.</string>
     <string name="contact_email">cristiansan@gmail.com</string>
@@ -10,7 +11,7 @@
     <string name="compartir">Share</string>
     <string name="primer_subte">First Train</string>
     <string name="ultimo_subte">Last Train</string>
-    <string name="version">version 1.7 \u03C0</string>
+    <string name="version">version 1.9</string>
 
     //Linea A
     <string name="linea_a">Line A</string>

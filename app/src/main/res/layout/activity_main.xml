@@ -5,20 +5,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
-        android:background="@color/colorBlack"
-        >
+        android:background="@color/colorBlack" >
 
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            >
+            android:layout_weight="1">
 
             <Button
                 android:id="@+id/A"
+                style="@style/CustomButtonA"
+                android:elevation="10dp"
+                android:shadowColor="#ffffff"
                 android:scaleType="center"
-
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -26,7 +26,6 @@
                 android:text="@string/linea_a"
                 android:textSize="25dp"
                 android:textStyle="bold"
-                android:background="@color/colorBlueLight"
                 android:onClick="btnA"
                 android:layout_margin="5dp"
                 android:clickable="true"/>
@@ -34,6 +33,7 @@
 
             <Button
                 android:id="@+id/B"
+                style="@style/CustomButtonB"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -41,7 +41,6 @@
                 android:text="@string/linea_b"
                 android:textSize="25dp"
                 android:textStyle="bold"
-                android:background="@color/colorRed"
                 android:onClick="btnB"
                 android:layout_margin="5dp"/>
 
@@ -54,6 +53,7 @@
 
             <Button
                 android:id="@+id/C"
+                style="@style/CustomButtonC"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -61,12 +61,12 @@
                 android:text="@string/linea_c"
                 android:textSize="25dp"
                 android:textStyle="bold"
-                android:background="@color/colorBlue"
                 android:onClick="btnC"
                 android:layout_margin="5dp"/>
 
             <Button
                 android:id="@+id/D"
+                style="@style/CustomButtonD"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -74,7 +74,6 @@
                 android:text="@string/linea_d"
                 android:textSize="25dp"
                 android:textStyle="bold"
-                android:background="@color/colorGreen"
                 android:onClick="btnD"
                 android:layout_margin="5dp"/>
         </TableRow>
@@ -86,6 +85,7 @@
 
             <Button
                 android:id="@+id/E"
+                style="@style/CustomButtonE"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -93,12 +93,12 @@
                 android:text="@string/linea_e"
                 android:textSize="25dp"
                 android:textStyle="bold"
-                android:background="@color/colorPurple"
                 android:onClick="btnE"
                 android:layout_margin="5dp"/>
 
             <Button
                 android:id="@+id/H"
+                style="@style/CustomButtonH"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -106,19 +106,40 @@
                 android:text="@string/linea_h"
                 android:textSize="25dp"
                 android:textStyle="bold"
-                android:background="@color/colorYellow"
                 android:onClick="btnH"
                 android:layout_margin="5dp"/>
         </TableRow>
-        <TextView
+
+        <LinearLayout
             android:id="@+id/Text"
             android:layout_width="match_parent"
-            android:layout_height="18dp"
-            android:paddingEnd="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:onClick="btnContact"
+            >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
             android:textColor="#ffffff"
             android:background="@color/colorBlack"
-            android:gravity="right"
             android:text="@string/version"
-            android:onClick="btnContact"/>
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="end"
+                android:src="@android:drawable/ic_dialog_email"/>
+
+        </LinearLayout>
     </TableLayout>
 
