@@ -37,10 +37,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:padding="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/precios_titulo_subte"
                 android:gravity="center"
                 android:textColor="#ffffff"
+                android:drawableEnd="@drawable/ic_subway_white_24dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1" />
 
@@ -142,10 +145,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:padding="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/precios_titulo_premetro"
                 android:gravity="center"
                 android:textColor="#ffffff"
+                android:drawableEnd="@drawable/ic_tram_white_24dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1" />
 
