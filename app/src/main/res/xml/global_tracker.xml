@@ -3,6 +3,9 @@
     <integer name="ga_sessionTimeout">300</integer>
     <bool name="ga_autoActivityTracking">true</bool>
 
+    <screenName name="com.offline.subte.Splash">
+        Splash
+    </screenName>
     <screenName name="com.offline.subte.MainActivity">
         Principal
     </screenName>
