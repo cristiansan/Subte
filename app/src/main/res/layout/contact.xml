@@ -10,6 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="monospace"
         android:text="@string/contact"
         android:textSize="20dp"
         android:textColor="#ffffff"
@@ -31,12 +32,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:fontFamily="monospace"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:text="@string/who_am_i"
         android:textSize="20dp"
         android:textColor="#ffffff"
-        android:gravity="center" />
+        android:gravity="left" />
 
     </ScrollView>
 </LinearLayout>

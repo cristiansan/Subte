@@ -10,7 +10,10 @@
     <string name="compartir">Compartir</string>
     <string name="primer_subte">Primer Subte</string>
     <string name="ultimo_subte">Ultimo Subte</string>
-    <string name="version">versión 1.9</string>
+    <string name="splash_titulo_arriba">Este espacio puede ser tuyo</string>
+    <string name="splash_titulo_abajo">Reservado para publicidad</string>
+    <string name="splash_cargando">Cargando... </string>
+    <string name="version">versión 1.10</string>
 
     //Linea A
     <string name="linea_a">Linea A</string>

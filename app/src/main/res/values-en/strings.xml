@@ -11,7 +11,10 @@
     <string name="compartir">Share</string>
     <string name="primer_subte">First Train</string>
     <string name="ultimo_subte">Last Train</string>
-    <string name="version">version 1.9</string>
+    <string name="splash_titulo_arriba">This space could be your</string>
+    <string name="splash_titulo_abajo">Reserved for publicity</string>
+    <string name="splash_cargando">Loading... </string>
+    <string name="version">version 1.10</string>
 
     //Linea A
     <string name="linea_a">Line A</string>
