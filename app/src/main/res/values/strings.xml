@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Subte off-line de Buenos Aires</string>
+    <string name="app_name">Subte off-line</string>
     <string name="contact">Si tenés sugerencias podés escribirme acá:</string>
     <string name="contact_us">Contactame   </string>
     <string name="who_am_i">Esta APP básicamente te permite ver los nombres de las estaciones, horarios, combinaciones y (próximamente) las calles entre cada estación.\n\nSi tenés información de las líneas restantes, calles, alturas y querés enviármelas podes hacerlo por email y pondré tu contacto como colaborador en esta APP.</string>
@@ -7,13 +7,14 @@
     <string name="choose_email">Selecciona tu email</string>
     <string name="lineas">Lineas</string>
     <string name="horarios">Horarios</string>
+    <string name="precios">Precios</string>
     <string name="compartir">Compartir</string>
     <string name="primer_subte">Primer Subte</string>
     <string name="ultimo_subte">Ultimo Subte</string>
     <string name="splash_titulo_arriba">Este espacio puede ser tuyo</string>
     <string name="splash_titulo_abajo">Reservado para publicidad</string>
     <string name="splash_cargando">Cargando... </string>
-    <string name="version">versión 1.10</string>
+    <string name="version">V. 1.11</string>
 
     //Linea A
     <string name="linea_a">Linea A</string>
@@ -56,5 +57,24 @@
     <string name="frecuencia_dias_habiles_h">Días Hábiles (5,45 min)</string>
     <string name="frecuencia_sabados_h">Sábados (8,00 min)</string>
     <string name="frecuencia_domingos_h">Domingos y Feriados (10,00 min)</string>
+
+    /Precios
+    <string name="precios_cant_viajes">Cantidad de viajes mensuales</string>
+    <string name="precios_titulo_subte">Subte</string>
+    <string name="precios_titulo_premetro">Premetro</string>
+    <string name="precio_01a20">1 a 20</string>
+    <string name="precio_21a30">21 a 30</string>
+    <string name="precio_31a40">31 a 40</string>
+    <string name="precio_41">+ de 41</string>
+    <string name="precio1">$4.50</string>
+    <string name="precio2">$3.60</string>
+    <string name="precio3">$3.15</string>
+    <string name="precio4">$2.75</string>
+    <string name="precio5">$1.50</string>
+    <string name="precio_premetro_mensaje">Precio único, no cambia por cantidad de viajes</string>
+    <string name="precio_jubilados_pensionados">- Pases de: jubilados, pensionados, discapacitados y estudiantes primarios, son subsidiados en su totalidad.\n
+- Quien tienen planes sociales, desempleados, indigentes, víctimas de Cromañón, ex combatientes de Malvinas, su valor es $ 2,50.\n
+- Abono estudiantil es de $ 1,04\n
+        - Abono maestro es de $ 2,27.\n</string>
 
 </resources>

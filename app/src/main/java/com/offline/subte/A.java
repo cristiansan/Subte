@@ -43,6 +43,19 @@ public class A extends AppCompatActivity{
 
     }
 
+    public void btnPrices(View v)
+    {
+        //más animaciones como: final Animation animShake = AnimationUtils.loadAnimation(this, R.anim.shake);
+        final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
+        v.startAnimation(blink);
+        Dialog dialog = new Dialog(A.this);
+        dialog.setContentView(R.layout.dialog_prices);
+        Window window = dialog.getWindow();
+        window.setBackgroundDrawableResource(android.R.color.transparent);
+        dialog.show();
+
+    }
+
     public void btnShare(final View v)
     {
 

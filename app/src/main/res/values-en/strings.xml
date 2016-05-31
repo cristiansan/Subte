@@ -8,13 +8,15 @@
     <string name="choose_email">Choose your email</string>
     <string name="lineas">Lines</string>
     <string name="horarios">Schedules</string>
+    <string name="precios">Prices</string>
     <string name="compartir">Share</string>
     <string name="primer_subte">First Train</string>
     <string name="ultimo_subte">Last Train</string>
     <string name="splash_titulo_arriba">This space could be your</string>
     <string name="splash_titulo_abajo">Reserved for publicity</string>
     <string name="splash_cargando">Loading... </string>
-    <string name="version">version 1.10</string>
+    <string name="version">V. 1.11</string>
+
 
     //Linea A
     <string name="linea_a">Line A</string>
@@ -60,4 +62,19 @@
     <string name="frecuencia_sabados_h">Saturday (8,00 min)</string>
     <string name="frecuencia_domingos_h">Sunday and Holydays (10,00 min)</string>
 
+    /Precios
+    <string name="precios_cant_viajes">Amount of monthly trips</string>
+    <string name="precios_titulo_subte">Subway</string>
+    <string name="precios_titulo_premetro">Premetro</string>
+    <string name="precio_01a20">1 to 20</string>
+    <string name="precio_21a30">21 to 30</string>
+    <string name="precio_31a40">31 to 40</string>
+    <string name="precio_41">+ 41</string>
+    <string name="precio1">$4.50</string>
+    <string name="precio2">$3.60</string>
+    <string name="precio3">$3.15</string>
+    <string name="precio4">$2.75</string>
+    <string name="precio5">$1.50</string>
+    <string name="precio_premetro_mensaje">Single price, quantity doesn`t change the import</string>
+    <string name="precio_jubilados_pensionados">For more information please call to Centro de Atención al Usuario (CAU) from monday to friday 8.00am to 08.00pm, 0-800-555-1616 / 4555-1616</string>
 </resources>

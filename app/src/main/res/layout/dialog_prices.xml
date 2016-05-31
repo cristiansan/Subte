@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/background_dark"
+    android:padding="10dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/precios_cant_viajes"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/precios_titulo_subte"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/precio_01a20"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/precio_21a30"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/precio_31a40"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/precio_41"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_margin="5dp">
+
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/precio1"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/precio2"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/precio3"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/precio4"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+    //----------------------------------
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        android:layout_weight="1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/precios_titulo_premetro"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="5dp">
+
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/precio5"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/precio_premetro_mensaje"
+                    android:gravity="left"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"/>
+
+
+
+            </LinearLayout>
+            //----------------------------------
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="20dp"
+                android:background="@android:drawable/button_onoff_indicator_off"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/precio_jubilados_pensionados"
+                android:gravity="left"
+                android:textSize="12dp"
+                android:textColor="#ffffff"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
