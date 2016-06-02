@@ -117,8 +117,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
+                    android:gravity="center|start"
+                    android:layout_marginLeft="15sp"
                     android:text="Balcarce (Hipólito Yrigoyen 300)"
                     />
 
