@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "638097127992",
+    "project_id": "subte-off-line-beb39"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638097127992:android:b9b356865fc97490",
+        "android_client_info": {
+          "package_name": "com.offline.subte"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA78Qoncc-XAy72eZEDZhOw2JrpaNOi9e0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
