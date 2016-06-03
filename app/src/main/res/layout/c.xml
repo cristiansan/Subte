@@ -106,7 +106,7 @@
                     android:layout_weight="1"
                     android:gravity="center|left"
                     android:text=" (Av.J.Ramos Mejía 1400)"
-                    android:singleLine="true"
+
                     android:textColor="@color/colorGrey"/>
 
             </LinearLayout>
@@ -245,7 +245,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:singleLine="true"
+
                     android:layout_weight="1"
                     android:gravity="center|left"
                     android:text=" (Av.Santa Fe 800)"
@@ -533,7 +533,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:singleLine="true"
+
                     android:layout_weight="1"
                     android:gravity="center|left"
                     android:text=" (Sarmiento 800)"
@@ -683,7 +683,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:singleLine="true"
+
                     android:gravity="center|left"
                     android:text=" (Av.de Mayo 900)"
                     android:textColor="@color/colorGrey"
@@ -971,7 +971,6 @@
                     android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:text=" (Bdo.de Irigoyen 700)"
-                    android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     android:drawableEnd="@android:drawable/ic_media_play"/>
 

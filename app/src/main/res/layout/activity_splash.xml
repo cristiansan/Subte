@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#d95319"
+    android:background="#fdc904"
     >
 
     <TextView
@@ -17,29 +17,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/sponsor"
-        android:layout_below="@+id/splash_titulo_arriba"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/splash_titulo_abajo"
-        android:layout_toLeftOf="@+id/splash_cargando"
-        android:layout_toStartOf="@+id/splash_cargando" />
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:textSize="24dp"
-        android:textColor="#000000"
-        android:text="@string/splash_cargando"
-        android:id="@+id/splash_cargando"
-        android:layout_below="@+id/progressBar"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
 
     <ProgressBar
         android:layout_width="wrap_content"
@@ -48,8 +25,8 @@
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignLeft="@+id/splash_cargando"
-        android:layout_alignStart="@+id/splash_cargando" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
     <TextView
@@ -64,7 +41,24 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:text="@string/splash_cargando"
+        android:id="@+id/splash_cargando"
+        android:layout_below="@+id/progressBar"
+        android:layout_centerHorizontal="true" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sponsor"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/splash_titulo_arriba" />
 
 
 </RelativeLayout>

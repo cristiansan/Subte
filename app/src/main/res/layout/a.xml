@@ -89,9 +89,10 @@
 
                 <ImageView
                     android:layout_width="39dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="39dp"
+                    android:padding="8dp"
                     android:background="@color/colorBlueLight"
-                    android:src="@android:drawable/radiobutton_off_background"/>
+                    android:src="@drawable/circle_a"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -242,7 +243,7 @@
                     android:text=" (Av.de Mayo 500)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:drawableEnd="@android:drawable/ic_media_play"/>
+                    />
 
             </LinearLayout>
 
@@ -1021,7 +1022,7 @@
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     android:drawableEnd="@android:drawable/ic_media_play"
-                    android:id="@+id/textView" />
+                    />
 
             </LinearLayout>
 
@@ -1179,7 +1180,7 @@
                     android:text=" (Av.Rivadavia 3400)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:id="@+id/textView" />
+                     />
 
 
 
@@ -1319,7 +1320,7 @@
                     android:text=" (Av.Rivadavia 3900)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:id="@+id/textView" />
+                     />
 
             </LinearLayout>
 
@@ -1498,7 +1499,7 @@
                     android:text=" (Av.Rivadavia 4500)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:id="@+id/textView" />
+                     />
 
             </LinearLayout>
 
@@ -1678,7 +1679,7 @@
                     android:text=" (Av.Rivadavia 5000)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:id="@+id/textView" />
+             />
 
             </LinearLayout>
 
@@ -1773,7 +1774,7 @@
                     android:text=" (Av.Rivadavia 5300)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:id="@+id/textView" />
+                   />
             </LinearLayout>
 
             <LinearLayout
@@ -1974,7 +1975,7 @@
                     android:text=" (Av.Rivadavia 5900)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:id="@+id/textView" />
+                     />
 
             </LinearLayout>
 
@@ -2113,7 +2114,7 @@
                     android:text=" (Av.Rivadavia 6300)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:id="@+id/textView" />
+                     />
 
             </LinearLayout>
 
@@ -2252,7 +2253,7 @@
                     android:text=" (Av.Rivadavia 6950)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:id="@+id/textView" />
+                  />
 
             </LinearLayout>
 
@@ -2390,7 +2391,7 @@
                     android:text=" (Av.Rivadavia 7450)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:id="@+id/textView" />
+                    />
 
             </LinearLayout>
 
