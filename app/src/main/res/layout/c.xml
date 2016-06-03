@@ -89,6 +89,7 @@
                     android:layout_height="match_parent"
                     android:background="@color/colorBlue"
                     android:src="@android:drawable/radiobutton_off_background"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -96,7 +97,8 @@
                     android:layout_marginLeft="10dp"
                     android:text="Retiro"
                     android:textStyle="bold"
-                    android:textSize="25dp"/>
+                    android:textSize="25dp"
+                    />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -104,6 +106,7 @@
                     android:layout_weight="1"
                     android:gravity="center|left"
                     android:text=" (Av.J.Ramos Mejía 1400)"
+                    android:singleLine="true"
                     android:textColor="@color/colorGrey"/>
 
             </LinearLayout>
@@ -242,6 +245,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:singleLine="true"
                     android:layout_weight="1"
                     android:gravity="center|left"
                     android:text=" (Av.Santa Fe 800)"
@@ -529,6 +533,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:singleLine="true"
                     android:layout_weight="1"
                     android:gravity="center|left"
                     android:text=" (Sarmiento 800)"
@@ -657,7 +662,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:onClick="btnA">
+                android:onClick="btnA"
+                >
 
                 <ImageView
                     android:layout_width="39dp"
@@ -677,7 +683,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-
+                    android:singleLine="true"
                     android:gravity="center|left"
                     android:text=" (Av.de Mayo 900)"
                     android:textColor="@color/colorGrey"
@@ -823,6 +829,7 @@
                     android:layout_weight="1"
                     android:gravity="center|left"
                     android:text=" (Bdo.de Irigoyen 300)"
+                    android:singleLine="true"
                     android:textColor="@color/colorGrey"/>
 
             </LinearLayout>
@@ -964,6 +971,7 @@
                     android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:text=" (Bdo.de Irigoyen 700)"
+                    android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     android:drawableEnd="@android:drawable/ic_media_play"/>
 
@@ -1105,6 +1113,7 @@
                     android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:text=" (Bdo.de Irigoyen 1100)"
+                    android:singleLine="true"
                     android:textColor="@color/colorGrey"/>
 
 
@@ -1246,6 +1255,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center|left"
+                    android:singleLine="true"
                     android:text=" (Lima 1600)"
                     android:textColor="@color/colorGrey"/>
 
