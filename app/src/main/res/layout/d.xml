@@ -735,7 +735,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:onClick="btnH">
 
                 <ImageView
                     android:layout_width="39dp"
@@ -749,7 +750,8 @@
                     android:layout_marginLeft="10dp"
                     android:text="Pueyrredón"
                     android:textStyle="bold"
-                    android:textSize="25dp"/>
+                    android:textSize="25dp"
+                    android:drawableEnd="@android:drawable/ic_media_play"/>
 
             </LinearLayout>
 

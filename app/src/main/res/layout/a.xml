@@ -99,7 +99,8 @@
                     android:layout_marginLeft="10dp"
                     android:text="Plaza de Mayo"
                     android:textStyle="bold"
-                    android:textSize="25dp"/>
+                    android:textSize="25dp"
+                    />
 
             </LinearLayout>
 
@@ -221,7 +222,8 @@
                     android:layout_marginLeft="10dp"
                     android:text="Perú"
                     android:textStyle="bold"
-                    android:textSize="25dp"/>
+                    android:textSize="25dp"
+                    android:drawableEnd="@android:drawable/ic_media_play"/>
 
             </LinearLayout>
 
@@ -311,7 +313,8 @@
                     android:layout_marginLeft="10dp"
                     android:text="Piedras"
                     android:textStyle="bold"
-                    android:textSize="25dp"/>
+                    android:textSize="25dp"
+                    />
 
             </LinearLayout>
 
@@ -386,7 +389,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:onClick="btnC">
 
                 <ImageView
                     android:layout_width="39dp"
@@ -400,7 +404,9 @@
                     android:layout_marginLeft="10dp"
                     android:text="Lima"
                     android:textStyle="bold"
-                    android:textSize="25dp"/>
+                    android:textSize="25dp"
+                    android:drawableEnd="@android:drawable/ic_media_play"
+                    />
 
             </LinearLayout>
 
@@ -908,7 +914,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:onClick="btnH">
 
                 <ImageView
                     android:layout_width="39dp"
@@ -922,7 +929,9 @@
                     android:layout_marginLeft="10dp"
                     android:text="Plaza Miserere"
                     android:textStyle="bold"
-                    android:textSize="25dp"/>
+                    android:textSize="25dp"
+                    android:drawableEnd="@android:drawable/ic_media_play"
+                    />
 
             </LinearLayout>
 

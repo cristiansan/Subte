@@ -109,6 +109,7 @@
                 android:onClick="btnH"
                 android:layout_margin="5dp"/>
         </TableRow>
+<!--
 
         <LinearLayout
             android:id="@+id/Text"
@@ -118,28 +119,29 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:onClick="btnContact"
+-->
             >
 
         <TextView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
             android:textColor="#ffffff"
             android:background="@color/colorBlack"
             android:text="@string/version"
-            android:gravity="left"
-            android:layout_marginLeft="15dp"
-            />
+            android:padding="2dp"
+            android:drawableEnd="@android:drawable/ic_dialog_email"
+            android:onClick="btnContactUs"
 
+            />
+<!--
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_gravity="end"
-                android:src="@android:drawable/ic_dialog_email"/>
+                android:src="@android:drawable/ic_dialog_email"/>-->
 
-        </LinearLayout>
+<!--        </LinearLayout>-->
     </TableLayout>
 

@@ -69,6 +69,19 @@ public class A extends AppCompatActivity{
         startActivityForResult(Intent.createChooser(email, getString(R.string.choose_email)), 555);
     }
 
-
+    public void btnC(View v)
+    {
+        final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
+        v.startAnimation(blink);
+        Intent intent = new Intent(getApplicationContext(), C.class);
+        startActivity(intent);
+    }
+    public void btnH(View v)
+    {
+        final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
+        v.startAnimation(blink);
+        Intent intent = new Intent(getApplicationContext(), H.class);
+        startActivity(intent);
+    }
 
 }

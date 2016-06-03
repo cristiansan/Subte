@@ -62,4 +62,27 @@ public class E extends AppCompatActivity {
         email.setType("message/rfc822");
         startActivityForResult(Intent.createChooser(email, getString(R.string.choose_email)), 555);
     }
+    public void btnC(View v)
+    {
+        final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
+        v.startAnimation(blink);
+        Intent intent = new Intent(getApplicationContext(), C.class);
+        startActivity(intent);
+    }
+
+    public void btnH(View v)
+    {
+        final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
+        v.startAnimation(blink);
+        Intent intent = new Intent(getApplicationContext(), H.class);
+        startActivity(intent);
+    }
+/*
+    public void btnP(View v)
+    {
+        final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
+        v.startAnimation(blink);
+        Intent intent = new Intent(getApplicationContext(), P.class);
+        startActivity(intent);
+    }*/
 }

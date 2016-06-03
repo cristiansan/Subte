@@ -656,7 +656,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:onClick="btnA">
 
                 <ImageView
                     android:layout_width="39dp"
@@ -679,7 +680,8 @@
 
                     android:gravity="center|left"
                     android:text=" (Av.de Mayo 900)"
-                    android:textColor="@color/colorGrey"/>
+                    android:textColor="@color/colorGrey"
+                    android:drawableEnd="@android:drawable/ic_media_play"/>
 
             </LinearLayout>
 
@@ -940,7 +942,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:onClick="btnE">
 
                 <ImageView
                     android:layout_width="39dp"
@@ -961,7 +964,8 @@
                     android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:text=" (Bdo.de Irigoyen 700)"
-                    android:textColor="@color/colorGrey"/>
+                    android:textColor="@color/colorGrey"
+                    android:drawableEnd="@android:drawable/ic_media_play"/>
 
             </LinearLayout>
 
