@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent);
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
+        overridePendingTransition(R.anim.fadein, R.anim.slide);
     }
 
     public void btnB(View v)

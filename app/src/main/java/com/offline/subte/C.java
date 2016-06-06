@@ -25,6 +25,7 @@ public class C extends AppCompatActivity {
         v.startAnimation(blink);
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_left, R.anim.slide);
     }
     public void btnTimer(View v)
     {

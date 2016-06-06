@@ -20,6 +20,7 @@ public class A extends AppCompatActivity{
         setContentView(R.layout.a);
 
 
+
     }
     public void btnMain(View v)
     {
@@ -28,6 +29,7 @@ public class A extends AppCompatActivity{
         v.startAnimation(blink);
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_left, R.anim.slide);
     }
 
     public void btnTimer(View v)
