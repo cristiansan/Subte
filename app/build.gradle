@@ -6,10 +6,10 @@ android {
     buildToolsVersion "23.0.3"
     defaultConfig {
         applicationId "com.offline.subte"
-        minSdkVersion 16
+        minSdkVersion 15
         targetSdkVersion 23
-        versionCode 11
-        versionName '1.11'
+        versionCode 13
+        versionName '1.13'
     }
     buildTypes {
         release {
@@ -26,7 +26,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.0.0-beta1'
     /* compile 'com.google.android.gms:play-services-appinvite:9.0.0'*/
     /*    compile 'com.google.firebase:firebase-invites:9.0.0'
-            compile 'com.google.firebase:firebase-messaging:9.0.0'*/
+                        compile 'com.google.firebase:firebase-messaging:9.0.0'*/
     compile 'com.google.android.gms:play-services-analytics:9.0.0'
     compile 'com.google.android.gms:play-services-gcm:9.0.0'
     testCompile 'junit:junit:4.12'

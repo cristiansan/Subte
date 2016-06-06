@@ -970,7 +970,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center|left"
-                    android:text=" (Bdo.de Irigoyen 700)"
+                    android:text="(Bdo.de Irigoyen 700)"
                     android:textColor="@color/colorGrey"
                     android:drawableEnd="@android:drawable/ic_media_play"/>
 
