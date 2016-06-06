@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView2"
+    >
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
@@ -8,37 +14,40 @@
     android:gravity="center">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="monospace"
-        android:text="@string/contact"
-        android:textSize="20dp"
-        android:textColor="#ffffff"
-        android:gravity="center" />
-
-    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@android:drawable/ic_dialog_email"
-        android:onClick="btnContactUs"/>
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/scrollView2"
-        >
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:fontFamily="monospace"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="20dp"
         android:text="@string/who_am_i"
-        android:textSize="20dp"
+        android:textSize="18dp"
         android:textColor="#ffffff"
         android:gravity="left" />
 
-    </ScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:layout_marginTop="5dp"
+        android:text="@string/vertical"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:gravity="left" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/landscape"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/rate"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:gravity="left" />
+
 </LinearLayout>
+</ScrollView>

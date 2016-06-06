@@ -24,6 +24,7 @@
                 android:layout_weight="1"
                 android:textAllCaps="false"
                 android:text="@string/linea_a"
+                android:textColor="#ffffff"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:onClick="btnA"
@@ -39,6 +40,7 @@
                 android:layout_weight="1"
                 android:textAllCaps="false"
                 android:text="@string/linea_b"
+                android:textColor="#ffffff"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:onClick="btnB"
@@ -59,6 +61,7 @@
                 android:layout_weight="1"
                 android:textAllCaps="false"
                 android:text="@string/linea_c"
+                android:textColor="#ffffff"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:onClick="btnC"
@@ -72,6 +75,7 @@
                 android:layout_weight="1"
                 android:textAllCaps="false"
                 android:text="@string/linea_d"
+                android:textColor="#ffffff"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:onClick="btnD"
@@ -91,6 +95,7 @@
                 android:layout_weight="1"
                 android:textAllCaps="false"
                 android:text="@string/linea_e"
+                android:textColor="#ffffff"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:onClick="btnE"
@@ -104,45 +109,50 @@
                 android:layout_weight="1"
                 android:textAllCaps="false"
                 android:text="@string/linea_h"
+                android:textColor="#ffffff"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:onClick="btnH"
                 android:layout_margin="5dp"/>
         </TableRow>
-<!--
 
         <LinearLayout
             android:id="@+id/Text"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:onClick="btnContact"
--->
+            android:layout_weight="0.03"
             >
 
         <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:fontFamily="monospace"
+            android:layout_weight="1"
+            android:paddingStart="10dp"
+            android:layout_gravity="center_vertical"
             android:textColor="#ffffff"
             android:background="@color/colorBlack"
             android:text="@string/version"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:drawableEnd="@android:drawable/ic_dialog_email"
             android:onClick="btnContactUs"
+            android:gravity="center_vertical" />
 
-            />
-<!--
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                android:layout_gravity="end"
-                android:src="@android:drawable/ic_dialog_email"/>-->
+                android:src="@android:drawable/ic_menu_info_details"
+                android:onClick="btnContact"/>
 
-<!--        </LinearLayout>-->
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|end"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_dialog_email"
+                android:onClick="btnContactUs"/>
+
+        </LinearLayout>
     </TableLayout>
 

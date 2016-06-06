@@ -2,7 +2,11 @@
     <string name="app_name">Subte off-line</string>
     <string name="contact">Si tenés sugerencias podés escribirme acá:</string>
     <string name="contact_us">Contactame   </string>
-    <string name="who_am_i">Esta APP básicamente te permite ver los nombres de las estaciones, horarios, combinaciones y (próximamente) las calles entre cada estación.\n\nSi tenés información de las líneas restantes, calles, alturas y querés enviármelas podes hacerlo por email y pondré tu contacto como colaborador en esta APP.</string>
+    <string name="who_am_i">Esta APP básicamente te permite ver los nombres de las estaciones, horarios, combinaciones y las calles entre cada estación.\n\n
+        Si tenés información de las líneas restantes, calles, alturas... enviala y pondré tu contacto como colaborador en esta APP.</string>
+    <string name="vertical">Si la información mostrada no entra en tu pantalla... girala:</string>
+    <string name="rate">Si me ayudas con una buena calificación en el store me servirá para seguir mejorando, gracias.</string>
+
     <string name="contact_email">cristiansan@gmail.com</string>
     <string name="choose_email">Selecciona tu email</string>
     <string name="lineas">Lineas</string>

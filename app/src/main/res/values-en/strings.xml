@@ -2,8 +2,10 @@
     <string name="app_name">Subte off-line from Buenos Aires</string>
     <string name="contact">If you have any question, write me:</string>
     <string name="contact_us">Contact me   </string>
-    <string name="who_am_i">This APP allow you to see the Subway names, times, combinations and (coming soon) street names.\n\n
+    <string name="who_am_i">This APP allow you to see the Subway names, times, combinations and street names and numbers.\n\n
         If you have information to fix, or any comment please contact me.</string>
+    <string name="vertical">If the information doesn´t fit in your screen... rotate the phone:</string>
+    <string name="rate">Please rate this app in the store and help me with a good score.</string>
     <string name="contact_email">cristiansan@gmail.com</string>
     <string name="choose_email">Choose your email</string>
     <string name="lineas">Lines</string>
