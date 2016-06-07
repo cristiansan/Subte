@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent);
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
-        overridePendingTransition(R.anim.fadein, R.anim.slide);
+        overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
     }
 
     public void btnB(View v)
@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent);
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
+        overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
     }
 
     public void btnC(View v)
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent);
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
+        overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
     }
 
     public void btnD(View v)
@@ -63,6 +65,7 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent);
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
+        overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
     }
 
     public void btnE(View v)
@@ -71,6 +74,7 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent);
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
+        overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
     }
 
     public void btnH(View v)
@@ -79,6 +83,7 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent);
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
+        overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
     }
 
     public void btnContact(View v)

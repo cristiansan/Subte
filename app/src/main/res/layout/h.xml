@@ -72,7 +72,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/linea_h"
-                android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:background="@color/colorYellow"
                 android:textSize="50dp"
