@@ -25,7 +25,7 @@ public class H extends AppCompatActivity {
         v.startAnimation(blink);
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.slide_left, R.anim.slide);
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
     public void btnTimer(View v)
     {
@@ -69,7 +69,7 @@ public class H extends AppCompatActivity {
         v.startAnimation(blink);
         Intent intent = new Intent(getApplicationContext(), D.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.slide_left, R.anim.slide);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 
 
@@ -80,7 +80,7 @@ public class H extends AppCompatActivity {
         v.startAnimation(blink);
         Intent intent = new Intent(getApplicationContext(), B.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.slide_left, R.anim.slide);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 
     public void btnA(View v)
@@ -89,7 +89,7 @@ public class H extends AppCompatActivity {
         v.startAnimation(blink);
         Intent intent = new Intent(getApplicationContext(), A.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.slide_left, R.anim.slide);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 
     public void btnE(View v)
@@ -98,6 +98,6 @@ public class H extends AppCompatActivity {
         v.startAnimation(blink);
         Intent intent = new Intent(getApplicationContext(), E.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.slide_left, R.anim.slide);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 }
