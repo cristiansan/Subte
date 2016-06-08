@@ -74,7 +74,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/linea_a"
                 android:textColor="#ffffff"
-                android:textSize="50dp"
+                android:textSize="56sp"
                 android:textStyle="bold"
                 android:background="@color/colorBlueLight"
                 android:gravity="center" />
@@ -85,23 +85,25 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="39dp"
-                    android:layout_height="39dp"
-                    android:padding="8dp"
+                    android:layout_height="match_parent"
                     android:background="@color/colorBlueLight"
-                    android:src="@drawable/circle_a"/>
+                    android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Plaza de Mayo"
                     android:textStyle="bold"
                     android:textSize="25dp"
-                    />
+                    android:focusableInTouchMode="false" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -128,6 +130,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|start"
                     android:layout_marginLeft="15sp"
                     android:text="Balcarce"
@@ -171,6 +174,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Bolivar"
@@ -213,6 +217,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
+
                 android:orientation="horizontal">
 
                 <ImageView
@@ -227,7 +233,9 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Perú"
@@ -261,6 +269,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Perú"
@@ -303,6 +313,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Piedras"
@@ -319,6 +331,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -328,7 +341,9 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Piedras"
@@ -362,6 +377,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Tacuarí"
@@ -404,9 +421,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Lima)"
+                    android:text="Lima"
                     />
 
             </LinearLayout>
@@ -420,6 +439,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
                 android:onClick="btnC">
 
                 <ImageView
@@ -429,7 +449,9 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Lima"
@@ -464,6 +486,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Salta"
@@ -541,6 +565,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -550,7 +575,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Sáenz Peña"
@@ -660,6 +685,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -669,7 +695,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Congreso"
@@ -779,6 +805,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -788,7 +815,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Pasco"
@@ -856,6 +883,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -865,7 +893,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Alberti"
@@ -995,6 +1023,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
                 android:onClick="btnH">
 
                 <ImageView
@@ -1004,7 +1033,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Plaza Miserere"
@@ -1156,6 +1185,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1165,7 +1195,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Loria"
@@ -1180,7 +1210,7 @@
                     android:text=" (Av.Rivadavia 3400)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                     />
+                    />
 
 
 
@@ -1296,6 +1326,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1305,7 +1336,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Castro Barros"
@@ -1320,7 +1351,7 @@
                     android:text=" (Av.Rivadavia 3900)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                     />
+                    />
 
             </LinearLayout>
 
@@ -1475,6 +1506,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1484,7 +1516,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Río de Janeiro"
@@ -1499,7 +1531,7 @@
                     android:text=" (Av.Rivadavia 4500)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                     />
+                    />
 
             </LinearLayout>
 
@@ -1655,6 +1687,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1664,7 +1697,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Acoyte"
@@ -1679,7 +1712,7 @@
                     android:text=" (Av.Rivadavia 5000)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-             />
+                    />
 
             </LinearLayout>
 
@@ -1750,6 +1783,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1759,7 +1793,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Primera Junta"
@@ -1774,7 +1808,7 @@
                     android:text=" (Av.Rivadavia 5300)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                   />
+                    />
             </LinearLayout>
 
             <LinearLayout
@@ -1951,6 +1985,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1960,7 +1995,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Puan"
@@ -1975,7 +2010,7 @@
                     android:text=" (Av.Rivadavia 5900)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                     />
+                    />
 
             </LinearLayout>
 
@@ -2090,6 +2125,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2099,7 +2135,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Carabobo"
@@ -2114,7 +2150,7 @@
                     android:text=" (Av.Rivadavia 6300)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                     />
+                    />
 
             </LinearLayout>
 
@@ -2229,6 +2265,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2238,7 +2275,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="San José de Flores"
@@ -2253,7 +2290,7 @@
                     android:text=" (Av.Rivadavia 6950)"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                  />
+                    />
 
             </LinearLayout>
 
@@ -2367,6 +2404,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2376,7 +2414,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="San Pedrito"
