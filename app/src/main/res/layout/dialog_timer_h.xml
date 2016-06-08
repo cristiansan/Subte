@@ -92,7 +92,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:paddingStart="10dp"
-            android:text="San Pedrito"
+            android:text="Hospitales"
             android:textColor="#ffffff"
             android:layout_weight="3"/>
 
@@ -127,7 +127,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:paddingStart="10dp"
-            android:text="Plaza de Mayo"
+            android:text="Las Heras"
             android:textColor="#ffffff"
             android:layout_weight="3"/>
 
@@ -216,7 +216,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:paddingStart="10dp"
-            android:text="San Pedrito"
+            android:text="Hospitales"
             android:textColor="#ffffff"
             android:layout_weight="3"/>
 
@@ -251,7 +251,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:paddingStart="10dp"
-            android:text="Plaza de Mayo"
+            android:text="Las Heras"
             android:textColor="#ffffff"
             android:layout_weight="3"/>
 
@@ -340,7 +340,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:paddingStart="10dp"
-            android:text="San Pedrito"
+            android:text="Hospitales"
             android:textColor="#ffffff"
             android:layout_weight="3"/>
 
@@ -375,7 +375,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:paddingStart="10dp"
-            android:text="Plaza de Mayo"
+            android:text="Las Heras"
             android:textColor="#ffffff"
             android:layout_weight="3"/>
 
