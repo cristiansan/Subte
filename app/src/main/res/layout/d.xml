@@ -83,7 +83,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:elevation="@dimen/shadow"
+                android:onClick="btnAE">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -226,7 +228,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:elevation="@dimen/shadow"
+                android:onClick="btnBC">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -787,6 +791,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:elevation="@dimen/shadow"
                 android:onClick="btnH">
 
                 <ImageView

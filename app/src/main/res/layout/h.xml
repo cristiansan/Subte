@@ -27,7 +27,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/horarios"
-            android:textColor="#ffffff"
             android:gravity="center"
             android:drawableTop="@drawable/ic_access_time_white_24dp"
             android:onClick="btnTimer"
@@ -40,7 +39,6 @@
             android:text="@string/precios"
             android:gravity="center"
             android:drawableTop="@drawable/ic_attach_money_white_24dp"
-            android:textColor="#ffffff"
             android:onClick="btnPrices"
             />
 
@@ -51,7 +49,6 @@
             android:text="@string/compartir"
             android:gravity="center"
             android:drawableTop="@drawable/ic_share_white_24dp"
-            android:textColor="#ffffff"
             android:onClick="btnShare"
             />
 
@@ -82,7 +79,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                >
 
                 <ImageView
                     android:layout_width="39dp"
@@ -286,6 +284,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:elevation="@dimen/shadow"
                 android:onClick="btnD"
                 >
 
@@ -546,6 +545,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:elevation="@dimen/shadow"
                 android:onClick="btnB">
 
                 <ImageView
@@ -684,6 +684,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:elevation="@dimen/shadow"
                 android:onClick="btnA">
 
                 <ImageView
@@ -946,6 +947,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:elevation="@dimen/shadow"
                 android:onClick="btnE">
 
                 <ImageView

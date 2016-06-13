@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="@android:color/background_dark"
-    android:padding="10dp">
+    android:padding="10dp"
+    >
 
 
 
@@ -19,12 +20,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:elevation="@dimen/shadow"
+
             android:orientation="vertical">
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+
                 android:text="@string/cabeceras_c"
                 android:gravity="center"
                 android:textColor="#ffffff"
@@ -50,6 +54,7 @@
         android:layout_height="0dp"
         android:orientation="horizontal"
         android:layout_weight="1"
+
         android:layout_margin="5dp">
 
         <TextView

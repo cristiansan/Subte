@@ -83,7 +83,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:elevation="@dimen/shadow"
+                android:onClick="btnAD">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -365,6 +367,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:elevation="@dimen/shadow"
                 android:onClick="btnC">
 
                 <ImageView
@@ -924,6 +927,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:elevation="@dimen/shadow"
                 android:onClick="btnH">
 
                 <ImageView
@@ -2029,7 +2033,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:elevation="@dimen/shadow">
 
                 <ImageView
                     android:layout_width="39dp"
@@ -2161,16 +2166,6 @@
                     />
 
             </LinearLayout>
-
-
-
-
-
-
-
-
-
-
 
 
         </LinearLayout>

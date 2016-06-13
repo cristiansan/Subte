@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="5dp"
+
         android:orientation="horizontal"
         android:background="@color/colorBlueLight">
 
@@ -26,6 +27,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:elevation="@dimen/shadow"
             android:layout_weight="1"
             android:text="@string/horarios"
             android:textColor="#e6e6e6"
@@ -67,11 +69,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
+
             android:paddingBottom="1dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+
                 android:text="@string/linea_a"
                 android:textColor="#ffffff"
                 android:textSize="56sp"
@@ -86,6 +90,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorGreyLight"
+
                 android:orientation="horizontal">
 
                 <ImageView
@@ -95,7 +100,7 @@
                     android:src="@android:drawable/radiobutton_off_background"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:paddingTop="6dp"
                     android:paddingBottom="6dp"
                     android:gravity="center|left"
@@ -218,8 +223,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorGreyLight"
-
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:elevation="@dimen/shadow"
+                android:onClick="btnED">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -332,7 +338,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorGreyLight"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                >
 
                 <ImageView
                     android:layout_width="39dp"
@@ -440,6 +447,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:background="@color/colorGreyLight"
+                android:elevation="@dimen/shadow"
                 android:onClick="btnC">
 
                 <ImageView
@@ -487,7 +495,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="6dp"
-
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Salta"
@@ -552,6 +559,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
+                    android:paddingBottom="6dp"
+
                     android:layout_marginLeft="15dp"
                     android:text="San José"
                     />
@@ -566,7 +575,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorGreyLight"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:elevation="@dimen/shadow"
+                >
 
                 <ImageView
                     android:layout_width="39dp"
@@ -609,6 +620,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
+                    android:paddingTop="6dp"
+
                     android:layout_marginLeft="15dp"
                     android:text="Saenz Peña, Luis"
                     />
@@ -671,6 +684,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Callao"
@@ -728,6 +743,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Combate, De los Pozos "
@@ -792,6 +808,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
+                    android:paddingBottom="6dp"
                     android:layout_marginLeft="15dp"
                     android:text="Pasco"
                     />
@@ -848,6 +865,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Pichincha"
@@ -869,6 +887,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Matheu"
@@ -926,6 +945,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Alberti)"
@@ -1010,6 +1030,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Jujuy, Av."
@@ -1024,6 +1045,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:background="@color/colorGreyLight"
+                android:elevation="@dimen/shadow"
                 android:onClick="btnH">
 
                 <ImageView
@@ -1069,6 +1091,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Catamarca"
@@ -1173,6 +1196,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Sanchez De Bustamante"
@@ -1230,6 +1254,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Liniers Virrey"
@@ -1314,6 +1339,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Castro Barros, Av."
@@ -1390,6 +1416,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Yapeyú"
@@ -1493,6 +1520,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="La Plata, Av."
@@ -1549,6 +1577,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Senillosa"
@@ -1675,6 +1704,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Ambrosetti, Juan B."
@@ -1730,6 +1760,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Hidalgo"
@@ -1772,6 +1803,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Colpayo"
@@ -1825,6 +1857,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Riojas"
@@ -1971,6 +2004,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Chirimay"
@@ -2028,6 +2062,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
@@ -2112,6 +2147,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
@@ -2168,6 +2204,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
@@ -2252,6 +2289,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
@@ -2308,6 +2346,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
@@ -2392,6 +2431,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
@@ -2447,6 +2487,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
@@ -2531,6 +2572,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Calles"
