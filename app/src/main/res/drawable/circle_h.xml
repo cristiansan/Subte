@@ -14,8 +14,8 @@
 
 
             <gradient
-                android:startColor="#00addf"
-                android:endColor="#00addf"
+                android:startColor="#fddf01"
+                android:endColor="#fddf01"
 
                 />
 
