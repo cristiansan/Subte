@@ -81,4 +81,7 @@
 - Abono estudiantil es de $ 1,04\n
         - Abono maestro es de $ 2,27.\n</string>
 
+    /Dialogos combinaciones
+    <string name="combinacion_con_lineas">Combinación con líneas:</string>
+
 </resources>

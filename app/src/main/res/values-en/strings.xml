@@ -79,4 +79,8 @@
     <string name="precio5">$1.50</string>
     <string name="precio_premetro_mensaje">Single price, quantity doesn`t change the import</string>
     <string name="precio_jubilados_pensionados">For more information please call to Centro de Atención al Usuario (CAU) from monday to friday 8.00am to 08.00pm, 0-800-555-1616 / 4555-1616</string>
+
+    /Dialogos combinaciones
+    <string name="combinacion_con_lineas">Link with line:</string>
+
 </resources>
