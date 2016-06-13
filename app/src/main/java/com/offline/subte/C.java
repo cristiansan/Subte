@@ -82,4 +82,37 @@ public class C extends AppCompatActivity {
         startActivity(intent);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void btnDB(View v)
+    {
+        //más animaciones como: final Animation animShake = AnimationUtils.loadAnimation(this, R.anim.shake);
+        final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
+        v.startAnimation(blink);
+        Dialog dialog = new Dialog(C.this);
+        dialog.setContentView(R.layout.dialog_combinaciones_d_b);
+        Window window = dialog.getWindow();
+        window.setBackgroundDrawableResource(android.R.color.transparent);
+        dialog.show();
+
+    }
+
+    public void btnD(View v)
+    {
+        final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
+        v.startAnimation(blink);
+        Intent intent = new Intent(getApplicationContext(), D.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
+
+    public void btnB(View v)
+    {
+        final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
+        v.startAnimation(blink);
+        Intent intent = new Intent(getApplicationContext(), B.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
+////////////////////////////////////////////////////////////////////////////////////////////////////
 }

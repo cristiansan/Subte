@@ -84,5 +84,37 @@ public class E extends AppCompatActivity {
 
     }
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void btnAD(View v)
+    {
+        //más animaciones como: final Animation animShake = AnimationUtils.loadAnimation(this, R.anim.shake);
+        final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
+        v.startAnimation(blink);
+        Dialog dialog = new Dialog(E.this);
+        dialog.setContentView(R.layout.dialog_combinaciones_a_d);
+        Window window = dialog.getWindow();
+        window.setBackgroundDrawableResource(android.R.color.transparent);
+        dialog.show();
+
+    }
+
+    public void btnA(View v)
+    {
+        final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
+        v.startAnimation(blink);
+        Intent intent = new Intent(getApplicationContext(), A.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
+
+    public void btnD(View v)
+    {
+        final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
+        v.startAnimation(blink);
+        Intent intent = new Intent(getApplicationContext(), D.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 }
