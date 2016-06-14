@@ -8,8 +8,8 @@ android {
         applicationId "com.offline.subte"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 15
-        versionName '1.15'
+        versionCode 16
+        versionName '1.16'
     }
     buildTypes {
         release {
