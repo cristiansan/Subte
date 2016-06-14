@@ -85,6 +85,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:elevation="@dimen/shadow"
+                android:background="@color/colorGreyLight"
                 android:onClick="btnAD">
 
                 <ImageView
@@ -100,6 +101,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Bolivar"
@@ -111,7 +114,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Pres.Julio A.Roca 500)"
+                    android:text=" Av.Pres.Julio A.Roca 500"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -228,6 +231,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -238,6 +242,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Belgrano"
@@ -249,7 +255,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Belgrano 800)"
+                    android:text=" Av.Belgrano 800"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -367,6 +373,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
                 android:elevation="@dimen/shadow"
                 android:onClick="btnC">
 
@@ -378,6 +385,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Independencia"
@@ -390,10 +399,10 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Bdo.de Irigoyen 800)"
+                    android:text=" Bdo.de Irigoyen 800"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:drawableEnd="@android:drawable/ic_media_play"
+
                     />
 
             </LinearLayout>
@@ -507,6 +516,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -517,6 +527,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="San José"
@@ -528,7 +540,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.San Juan 1300)"
+                    android:text=" Av.San Juan 1300"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
 
@@ -650,6 +662,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -660,6 +673,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Entre Ríos"
@@ -671,7 +686,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Entre Ríos 1100)"
+                    android:text=" Av.Entre Ríos 1100"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -788,6 +803,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -798,6 +814,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Pichincha"
@@ -809,7 +827,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.San Juan 2200)"
+                    android:text=" Av.San Juan 2200"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -928,6 +946,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:elevation="@dimen/shadow"
+                android:background="@color/colorGreyLight"
                 android:onClick="btnH">
 
                 <ImageView
@@ -938,6 +957,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Jujuy"
@@ -949,10 +970,10 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.San Juan 2700)"
+                    android:text=" Av.San Juan 2700"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:drawableEnd="@android:drawable/ic_media_play"/>
+                    />
 
             </LinearLayout>
 
@@ -1066,6 +1087,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1076,6 +1098,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="General Urquiza"
@@ -1087,7 +1111,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.San Juan 3100)"
+                    android:text=" Av.San Juan 3100"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1204,6 +1228,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1214,6 +1239,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Boedo"
@@ -1225,7 +1252,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.San Juan 3500)"
+                    android:text=" Av.San Juan 3500"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1342,6 +1369,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1352,6 +1380,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Avenida La Plata"
@@ -1363,7 +1393,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Directorio 1)"
+                    android:text=" Av.Directorio 1"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1480,6 +1510,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1490,6 +1521,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="José M. Moreno"
@@ -1501,7 +1534,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Directorio 400)"
+                    android:text=" Av.Directorio 400"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1618,6 +1651,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1628,6 +1662,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Emilio Mitre"
@@ -1639,7 +1675,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Emilio Mitre 700)"
+                    android:text=" Emilio Mitre 700"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1757,6 +1793,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1767,6 +1804,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Medalla Milagrosa"
@@ -1778,7 +1817,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Pumacahua 900)"
+                    android:text=" Pumacahua 900"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1895,6 +1934,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1905,6 +1945,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Varela"
@@ -1916,7 +1958,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Varela 900)"
+                    android:text=" Varela 900"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -2033,8 +2075,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal"
-                android:elevation="@dimen/shadow">
+                >
 
                 <ImageView
                     android:layout_width="39dp"
@@ -2044,6 +2087,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Plaza de los Virreyes"
@@ -2055,7 +2100,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Lafuente 2900)"
+                    android:text=" Av.Lafuente 2900"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />

@@ -10,6 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:elevation="@dimen/shadow"
         android:padding="5dp"
         android:orientation="horizontal"
         android:background="@color/colorBlueLight">
@@ -83,7 +84,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="100dp"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -191,24 +192,59 @@
     </LinearLayout>
 
 ///////////////////////////////////////////////////
+
             ///////////////////////////////////////////////////
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:orientation="horizontal"
-                >
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            ///////////////////////////////////////////////////
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+
+                >
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:background="@color/colorGreyLight">
+                    android:elevation="@dimen/shadow"
 
+                    >
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="10dp"
+                        android:padding="9dp"
                         android:text="E"
                         android:textSize="15dp"
                         android:textColor="#ffffff"
@@ -216,25 +252,28 @@
                         android:gravity="center"
                         android:layout_weight="1"
                         android:background="@color/colorPurple" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="10dp"
-                        android:text="D"
+                        android:padding="9dp"
+                        android:text="H"
                         android:textSize="15dp"
                         android:textColor="#ffffff"
                         android:textStyle="bold"
                         android:gravity="center"
                         android:layout_weight="1"
-                        android:background="@color/colorGreen" />
+                        android:background="@color/colorGreen"
+                        android:id="@+id/textView" />
+
 
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="5"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    >
 
                     <TextView
                         android:layout_width="match_parent"
@@ -249,20 +288,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center|top"
                         android:textSize="12dp"
-                        android:gravity="center|top"                        android:text=" (Av.de Mayo 500)"
-                        android:singleLine="true"
+                        android:text="(Av.de Mayo 500)"
                         android:textColor="@color/colorGrey"/>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
                     android:layout_weight="1"
-                    android:orientation="horizontal"
+                    android:orientation="vertical"
                     android:background="@color/colorBlueLight">
-
-
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -280,7 +319,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    >
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -302,48 +342,19 @@
                         android:layout_marginLeft="5sp"
                         android:text="Piedras"
                         />
+
+
                 </LinearLayout>
             </LinearLayout>
 
             ///////////////////////////////////////////////////
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-
-
-            </LinearLayout>
-
             //-----------------------------
 
 
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="100dp"
                 android:orientation="horizontal"
                 >
                 <LinearLayout
@@ -448,12 +459,124 @@
             </LinearLayout>
 
             ///////////////////////////////////////////////////
+
+            ///////////////////////////////////////////////////
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:elevation="@dimen/shadow"
+
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="9dp"
+                        android:text="E"
+                        android:textSize="15dp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/colorPurple" />
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|bottom"
+                        android:text="Lima"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|top"
+                        android:textSize="12dp"
+                        android:text="(Av.de Mayo 1101)"
+                        android:textColor="@color/colorGrey"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@color/colorBlueLight">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="25dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBlueLight"
+                        android:src="@android:drawable/radiobutton_off_background"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Perú"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Chacabuco"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Piedras"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            ///////////////////////////////////////////////////
             //-----------------------------
 
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="100dp"
                 android:orientation="horizontal"
                 >
                 <LinearLayout
@@ -461,6 +584,8 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:background="@color/colorGreyLight"
+                    android:elevation="@dimen/shadow"
+
                     >
 
                     <TextView
@@ -497,7 +622,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:textSize="12dp"
-                        android:gravity="center|top"                        android:text=" (Av.de Mayo 1101)"
+                        android:gravity="center|top"
+                        android:text="(Av.de Mayo 1101)"
                         android:singleLine="true"
                         android:textColor="@color/colorGrey"/>
                 </LinearLayout>
@@ -798,523 +924,468 @@
 
             ///////////////////////////////////////////////////
 
-
-            //---------------------------------------------
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-                    android:src="@android:drawable/radiobutton_off_background"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="10dp"
-                    android:text="Pasco"
-                    android:textStyle="bold"
-                    android:textSize="25dp"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center|left"
-                    android:text=" (Av.Rivadavia 2200)"
-                    android:singleLine="true"
-                    android:textColor="@color/colorGrey"
-                    />
-
-            </LinearLayout>
+            ///////////////////////////////////////////////////
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Pichincha"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Matheu"
-                    />
-
-            </LinearLayout>
-
-
-
-            //-----------------------------------------------------
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-                    android:src="@android:drawable/radiobutton_off_background"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="10dp"
-                    android:text="Alberti"
-                    android:textStyle="bold"
-                    android:textSize="25dp"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center|left"
-                    android:text=" (Av.Rivadavia 24000)"
-                    android:singleLine="true"
-                    android:textColor="@color/colorGrey"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Alberti)"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Saavedra"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Misiones"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Jujuy, Av."
-                    />
-
-            </LinearLayout>
-
-            //-----------------------------
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:orientation="horizontal"
-                android:onClick="btnH">
+                android:background="@color/colorGreyLight"
 
-                <ImageView
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorYellow"
-                    android:src="@android:drawable/radiobutton_off_background"/>
-                <TextView
+                >
+                <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="10dp"
-                    android:text="Plaza Miserere"
-                    android:textStyle="bold"
-                    android:textSize="25dp"
-
-                    />
-
-                <TextView
-                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBlueLight"
+                        android:src="@android:drawable/radiobutton_off_background"
+                        android:visibility="invisible"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBlueLight"
+                        android:src="@android:drawable/radiobutton_off_background"
+                        android:visibility="invisible"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|bottom"
+                        android:text="Pasco"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|top"
+                        android:textSize="12dp"
+                        android:text="(Av.Rivadavia 2200)"
+                        android:textColor="@color/colorGrey"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
                     android:layout_weight="1"
-                    android:gravity="center|left"
-                    android:text=" (Av.Pueyrredón 2100)"
-                    android:singleLine="true"
-                    android:textColor="@color/colorGrey"
-                    android:drawableEnd="@android:drawable/ic_media_play"
-                    />
+                    android:orientation="vertical"
+                    android:background="@color/colorBlueLight">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="25dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBlueLight"
+                        android:src="@android:drawable/radiobutton_off_background"/>
 
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Pichincha"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Matheu"
+                        />
+
+                </LinearLayout>
             </LinearLayout>
+
+            ///////////////////////////////////////////////////
+
+
+            ///////////////////////////////////////////////////
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Catamarca"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="La Rioja"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Urquiza, Gral."
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="24 de Noviembre"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="--------------------"
-                    />
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Sanchez De Bustamante"
-                    />
-
-            </LinearLayout>
-
-            //----------------------------------
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-                    android:src="@android:drawable/radiobutton_off_background"/>
-                <TextView
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="10dp"
-                    android:text="Loria"
-                    android:textStyle="bold"
-                    android:textSize="25dp"/>
-
-                <TextView
-                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBlueLight"
+                        android:src="@android:drawable/radiobutton_off_background"
+                        android:visibility="invisible"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBlueLight"
+                        android:src="@android:drawable/radiobutton_off_background"
+                        android:visibility="invisible"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|bottom"
+                        android:text="Alberti"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|top"
+                        android:textSize="12dp"
+                        android:text="(Av.Rivadavia 2400)"
+                        android:textColor="@color/colorGrey"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
                     android:layout_weight="1"
-                    android:gravity="center|left"
-                    android:text=" (Av.Rivadavia 3400)"
-                    android:singleLine="true"
-                    android:textColor="@color/colorGrey"
-                     />
+                    android:orientation="vertical"
+                    android:background="@color/colorBlueLight">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="25dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBlueLight"
+                        android:src="@android:drawable/radiobutton_off_background"/>
 
 
+                </LinearLayout>
 
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Alberti"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Saavedra"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Misiones"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Jujuy, Av."
+                        />
+
+                </LinearLayout>
             </LinearLayout>
+
+            ///////////////////////////////////////////////////
+
+            ///////////////////////////////////////////////////
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
 
-                <View
-                    android:layout_width="39dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
+                    android:orientation="vertical"
 
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Liniers Virrey"
-                    />
+                    >
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="9dp"
+                        android:text="H"
+                        android:textSize="15dp"
+                        android:textColor="#252424"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/colorYellow" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|bottom"
+                        android:text="Plaza Miserere"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|top"
+                        android:textSize="12dp"
+                        android:text="(Av.Pueyrredón 2100)"
+                        android:textColor="@color/colorGrey"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@color/colorBlueLight">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="25dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBlueLight"
+                        android:src="@android:drawable/radiobutton_off_background"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Catamarca"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="La Rioja"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Urquiza, Gral."
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="24 de Noviembre"
+                        />
+
+                </LinearLayout>
             </LinearLayout>
+
+            ///////////////////////////////////////////////////
+
+
+            ///////////////////////////////////////////////////
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
+                    android:orientation="vertical"
 
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Maza"
-                    />
+                    >
 
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBlueLight"
+                        android:src="@android:drawable/radiobutton_off_background"
+                        android:visibility="invisible"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBlueLight"
+                        android:src="@android:drawable/radiobutton_off_background"
+                        android:visibility="invisible"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|bottom"
+                        android:text="Loria"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|top"
+                        android:textSize="12dp"
+                        android:text="(Av.Rivadavia 3400)"
+                        android:textColor="@color/colorGrey"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@color/colorBlueLight">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="25dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorBlueLight"
+                        android:src="@android:drawable/radiobutton_off_background"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Liniers Virrey"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Maza"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Boedo, Av."
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="5sp"
+                        android:text="Castro Barros, Av."
+                        />
+
+                </LinearLayout>
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Boedo, Av."
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Colombres"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlueLight"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Castro Barros, Av."
-                    />
-
-            </LinearLayout>
+            ///////////////////////////////////////////////////
 
             //----------------------------------
 

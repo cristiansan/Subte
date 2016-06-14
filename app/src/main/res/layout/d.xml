@@ -84,6 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
                 android:elevation="@dimen/shadow"
                 android:onClick="btnAE">
 
@@ -100,6 +101,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Catedral"
@@ -111,7 +114,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (San Martin 1)"
+                    android:text=" San Martin 1"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -229,6 +232,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
                 android:elevation="@dimen/shadow"
                 android:onClick="btnBC">
 
@@ -246,6 +250,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="9 de Julio"
@@ -257,7 +263,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Carlos Pellegrini 300)"
+                    android:text=" Carlos Pellegrini 300"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -374,6 +380,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -384,6 +391,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Tribunales"
@@ -395,7 +404,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Talcahuano 600)"
+                    android:text=" Talcahuano 600"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -511,6 +520,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -521,6 +531,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Callao"
@@ -532,7 +544,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Córdoba 1800)"
+                    android:text=" Av.Córdoba 1800"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -652,6 +664,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -662,6 +675,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Fac.de Medicina"
@@ -673,7 +688,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Córdoba 2100)"
+                    android:text=" Av.Córdoba 2100"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -791,6 +806,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
                 android:elevation="@dimen/shadow"
                 android:onClick="btnH">
 
@@ -802,6 +818,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Pueyrredón"
@@ -814,10 +832,10 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Sta Fe 2500)"
+                    android:text=" Av.Sta Fe 2500"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:drawableEnd="@android:drawable/ic_media_play"/>
+                    />
 
             </LinearLayout>
 
@@ -931,6 +949,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -941,6 +960,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Agüero"
@@ -952,7 +973,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Sta Fe 2900)"
+                    android:text=" Av.Sta Fe 2900"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1071,6 +1092,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1081,6 +1103,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Bulnes"
@@ -1092,7 +1116,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Sta Fe 3300)"
+                    android:text=" Av.Sta Fe 3300"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1209,6 +1233,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1219,6 +1244,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Scalabrini Ortiz"
@@ -1230,7 +1257,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Sta Fe 3700)"
+                    android:text=" Av.Sta Fe 3700"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1347,16 +1374,21 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="39dp"
                     android:layout_height="match_parent"
                     android:background="@color/colorGreen"
-                    android:src="@android:drawable/radiobutton_off_background"/>
+                    android:src="@android:drawable/radiobutton_off_background"
+                    android:id="@+id/imageView2" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Plaza Italia"
@@ -1368,7 +1400,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Sta Fe 4100)"
+                    android:text=" Av.Sta Fe 4100"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1485,6 +1517,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1495,6 +1528,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Palermo"
@@ -1506,7 +1541,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Sta Fe 4650)"
+                    android:text=" Av.Sta Fe 4650"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1623,6 +1658,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1633,6 +1669,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Ministro Carranza"
@@ -1645,7 +1683,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Sta Fe 5300)"
+                    android:text=" Av.Sta Fe 5300"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1762,6 +1800,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1772,6 +1811,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Olleros"
@@ -1783,7 +1824,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Cabildo 700)"
+                    android:text=" Av.Cabildo 700"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1900,6 +1941,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1910,6 +1952,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="José Hernández"
@@ -1921,7 +1965,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Cabildo 1700)"
+                    android:text=" Av.Cabildo 1700"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -2038,6 +2082,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2048,6 +2093,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Juramento"
@@ -2058,7 +2105,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Cabildo 2000)"
+                    android:text=" Av.Cabildo 2000"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -2174,6 +2221,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2184,6 +2232,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Cong.de Tucumán"
@@ -2195,7 +2245,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="(Av.Cabildo 2800)"
+                    android:text=" Av.Cabildo 2800"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />

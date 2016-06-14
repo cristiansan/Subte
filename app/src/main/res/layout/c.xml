@@ -83,6 +83,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -94,6 +95,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Retiro"
@@ -106,7 +109,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.J.Ramos Mejía 1400)"
+                    android:text=" Av.J.Ramos Mejía 1400"
 
                     android:textColor="@color/colorGrey"/>
 
@@ -227,6 +230,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -237,7 +241,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Gral.San Martin"
@@ -249,7 +254,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Santa Fe 800)"
+                    android:text=" Av.Santa Fe 800"
                     android:textColor="@color/colorGrey"/>
 
             </LinearLayout>
@@ -369,6 +374,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -379,7 +385,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Lavalle"
@@ -391,7 +398,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Esmeralda 500)"
+                    android:text=" Esmeralda 500"
                     android:textColor="@color/colorGrey"/>
 
             </LinearLayout>
@@ -511,6 +518,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
                 android:elevation="@dimen/shadow"
                 android:onClick="btnDB">
 
@@ -527,7 +535,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Diagonal Norte"
@@ -539,7 +548,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Sarmiento 800)"
+                    android:text=" Sarmiento 800"
                     android:textColor="@color/colorGrey"/>
 
             </LinearLayout>
@@ -666,6 +675,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:elevation="@dimen/shadow"
+                android:background="@color/colorGreyLight"
                 android:onClick="btnA"
                 >
 
@@ -677,7 +687,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Avenida de Mayo"
@@ -689,9 +700,9 @@
                     android:layout_height="match_parent"
 
                     android:gravity="center|left"
-                    android:text=" (Av.de Mayo 900)"
+                    android:text=" Av.de Mayo 900"
                     android:textColor="@color/colorGrey"
-                    android:drawableEnd="@android:drawable/ic_media_play"/>
+                    />
 
             </LinearLayout>
 
@@ -810,6 +821,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -820,7 +832,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Moreno"
@@ -832,7 +845,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Bdo.de Irigoyen 300)"
+                    android:text=" Bdo.de Irigoyen 300"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"/>
 
@@ -954,6 +967,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
                 android:elevation="@dimen/shadow"
                 android:onClick="btnE">
 
@@ -965,6 +979,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Independencia"
@@ -975,9 +991,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center|left"
-                    android:text="(Bdo.de Irigoyen 700)"
+                    android:text=" Bdo.de Irigoyen 700"
                     android:textColor="@color/colorGrey"
-                    android:drawableEnd="@android:drawable/ic_media_play"/>
+                    />
 
             </LinearLayout>
 
@@ -1096,6 +1112,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1106,6 +1123,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="San Juan"
@@ -1116,7 +1135,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center|left"
-                    android:text=" (Bdo.de Irigoyen 1100)"
+                    android:text=" Bdo.de Irigoyen 1100"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"/>
 
@@ -1239,6 +1258,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1249,6 +1269,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Constitución"
@@ -1260,7 +1282,7 @@
                     android:layout_height="match_parent"
                     android:gravity="center|left"
                     android:singleLine="true"
-                    android:text=" (Lima 1600)"
+                    android:text=" Lima 1600"
                     android:textColor="@color/colorGrey"/>
 
             </LinearLayout>

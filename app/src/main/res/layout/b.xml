@@ -83,7 +83,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@color/colorGreyLight">
 
                 <ImageView
                     android:layout_width="39dp"
@@ -93,6 +94,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Leandro N. Alem"
@@ -104,7 +107,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Corrientes 200)"
+                    android:text=" Av.Corrientes 200"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"/>
 
@@ -201,7 +204,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
+                >
 
                 <ImageView
                     android:layout_width="39dp"
@@ -211,6 +216,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Florida"
@@ -222,7 +229,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Corrientes 600)"
+                    android:text="  Av.Corrientes 600"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"/>
 
@@ -320,7 +327,9 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:elevation="@dimen/shadow"
+                android:background="@color/colorGreyLight"
                 android:onClick="btnDC">
+
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -335,6 +344,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Carlos Pelegrini"
@@ -346,7 +357,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Corrientes 1000)"
+                    android:text="  Av.Corrientes 1000"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"/>
 
@@ -461,7 +472,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@color/colorGreyLight">
 
                 <ImageView
                     android:layout_width="39dp"
@@ -471,6 +483,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Uruguay"
@@ -482,7 +496,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Corrientes 1400)"
+                    android:text="  Av.Corrientes 1400"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"/>
 
@@ -582,7 +596,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@color/colorGreyLight">
 
                 <ImageView
                     android:layout_width="39dp"
@@ -592,6 +607,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Callao"
@@ -603,7 +620,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Corrientes 1800)"
+                    android:text="  Av.Corrientes 1800"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"/>
 
@@ -719,6 +736,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -729,6 +747,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Pasteur"
@@ -740,7 +760,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Corrientes 2300)"
+                    android:text="  Av.Corrientes 2300"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"/>
 
@@ -837,6 +857,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
                 android:elevation="@dimen/shadow"
                 android:onClick="btnH">
 
@@ -848,6 +869,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Pueyrredon"
@@ -860,10 +883,10 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Corrientes 2800)"
+                    android:text="  Av.Corrientes 2800"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
-                    android:drawableEnd="@android:drawable/ic_media_play"/>
+                    />
 
             </LinearLayout>
 
@@ -977,7 +1000,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
+                >
 
                 <ImageView
                     android:layout_width="39dp"
@@ -987,6 +1012,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Carlos Gardel"
@@ -998,7 +1025,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Corrientes 3300)"
+                    android:text="  Av.Corrientes 3300"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1156,6 +1183,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1166,6 +1194,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Medrano"
@@ -1176,7 +1206,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Corrientes 4000)"
+                    android:text="  Av.Corrientes 4000"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1335,7 +1365,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
+                >
 
                 <ImageView
                     android:layout_width="39dp"
@@ -1345,6 +1377,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Ángel Gallardo"
@@ -1356,7 +1390,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Corrientes 4700)"
+                    android:text="  Av.Corrientes 4700"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1493,6 +1527,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1503,6 +1538,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Malabia"
@@ -1514,7 +1551,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Corrientes 5300)"
+                    android:text="  Av.Corrientes 5300"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1696,7 +1733,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
+                >
 
                 <ImageView
                     android:layout_width="39dp"
@@ -1706,6 +1745,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Dorrego"
@@ -1717,7 +1758,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Corrientes 6200)"
+                    android:text="  Av.Corrientes 6200"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -1877,6 +1918,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1887,6 +1929,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Federico Lacroze"
@@ -1898,7 +1942,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Corrientes 6900)"
+                    android:text="  Av.Corrientes 6900"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -2015,7 +2059,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:background="@color/colorGreyLight"
+                android:orientation="horizontal"
+                >
 
                 <ImageView
                     android:layout_width="39dp"
@@ -2025,6 +2071,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Tronador"
@@ -2036,7 +2084,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Triunvirato 3000)"
+                    android:text="  Av.Triunvirato 3000"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -2174,6 +2222,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2184,6 +2233,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="De los Incas"
@@ -2195,7 +2246,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Los Incas 4000)"
+                    android:text="  Av.Los Incas 4000"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -2312,7 +2363,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@color/colorGreyLight"
+                >
 
                 <ImageView
                     android:layout_width="39dp"
@@ -2322,6 +2375,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Echeverría"
@@ -2333,7 +2388,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Av.Triunvirato 4200)"
+                    android:text="  Av.Triunvirato 4200"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -2491,6 +2546,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorGreyLight"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2501,6 +2557,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
                     android:text="Juan M.de Rosas"
@@ -2512,7 +2570,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" (Roosevelt 5100)"
+                    android:text="  Roosevelt 5100"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
