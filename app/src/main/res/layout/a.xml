@@ -7,12 +7,16 @@
     android:orientation="vertical"
     android:background="#d4d2d2">
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:padding="5dp"
         android:orientation="horizontal"
-        android:background="@color/colorBlueLight">
+        android:background="@color/colorBlueLight"
+        android:elevation="@dimen/shadow"
+        android:layout_weight="1">
 
         <ImageView
             android:layout_width="35dp"
@@ -57,18 +61,35 @@
             />
 
     </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlueLight"
+        android:text="Hacia Pza. de Mayo"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:drawableStart="@drawable/ic_chevron_up_white_24dp"
+        android:drawableEnd="@drawable/ic_chevron_up_white_24dp"
+        />
+
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/scrollView" >
+        android:layout_height="0dp"
+        android:id="@+id/scrollView"
+        android:touchscreenBlocksFocus="false"
+        android:layout_gravity="bottom"
+        android:layout_weight="8">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
 
-            android:paddingBottom="1dp">
+            >
 
             <TextView
                 android:layout_width="match_parent"
@@ -2480,15 +2501,26 @@
             </LinearLayout>
 
 
-
-
-
-
-
-
-
         </LinearLayout>
+
     </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorBlueLight"
+        android:text="Hacia San Pedrito"
+        android:textColor="#ffffff"
+        android:gravity="bottom|center_horizontal"
+        android:autoText="false"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:drawableStart="@drawable/ic_chevron_down_white_24dp"
+        android:drawableEnd="@drawable/ic_chevron_down_white_24dp"
+        />
+
 
 </LinearLayout>
 
