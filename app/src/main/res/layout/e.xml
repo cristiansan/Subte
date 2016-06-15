@@ -1817,7 +1817,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" Pumacahua 900"
+                    android:text=" Pumahuaca 900"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
@@ -2087,11 +2087,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+
                     android:paddingTop="6dp"
                     android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
-                    android:text="Plaza de los Virreyes"
+                    android:text="Pza.de los Virreyes"
                     android:textStyle="bold"
                     android:textSize="25dp"/>
 
