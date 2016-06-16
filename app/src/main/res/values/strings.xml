@@ -26,6 +26,8 @@
     <string name="frecuencia_dias_habiles_a">Días Hábiles (3,30 min)</string>
     <string name="frecuencia_sabados_a">Sábados (7,00 min)</string>
     <string name="frecuencia_domingos_a">Domingos y Feriados (8,00 min)</string>
+    <string name="linea_a_hacia_arriba">Hacia Pza. de Mayo  </string>
+    <string name="linea_a_hacia_abajo">Hacia San Pedrito  </string>
 
     //Linea B
     <string name="linea_b">Linea B</string>
@@ -33,6 +35,8 @@
     <string name="frecuencia_dias_habiles_b">Días Hábiles (3,00 min)</string>
     <string name="frecuencia_sabados_b">Sábados (7,00 min)</string>
     <string name="frecuencia_domingos_b">Domingos y Feriados (8,00 min)</string>
+    <string name="linea_b_hacia_arriba">Hacia Leandro N.Alem  </string>
+    <string name="linea_b_hacia_abajo">Hacia Juan Manuel de Rosas  </string>
 
     //Linea C
     <string name="linea_c">Linea C</string>
@@ -40,6 +44,8 @@
     <string name="frecuencia_dias_habiles_c">Días Hábiles (3,30 min )</string>
     <string name="frecuencia_sabados_c">Sábados (6,00 min)</string>
     <string name="frecuencia_domingos_c">Domingos y Feriados (7,30 min)</string>
+    <string name="linea_c_hacia_arriba">Hacia Retiro  </string>
+    <string name="linea_c_hacia_abajo">Hacia Consitución  </string>
 
     //Linea D
     <string name="linea_d">Linea D</string>
@@ -47,6 +53,8 @@
     <string name="frecuencia_dias_habiles_d">Días Hábiles (3,00 min)</string>
     <string name="frecuencia_sabados_d">Sábados (7,00 min)</string>
     <string name="frecuencia_domingos_d">Domingos y Feriados (7,00 min)</string>
+    <string name="linea_d_hacia_arriba">Hacia Catedral  </string>
+    <string name="linea_d_hacia_abajo">Hacia Congreso de Tucumán  </string>
 
     //Linea E
     <string name="linea_e">Linea E</string>
@@ -54,6 +62,8 @@
     <string name="frecuencia_dias_habiles_e">Días Hábiles (5,00 min)</string>
     <string name="frecuencia_sabados_e">Sábados (8,00 min)</string>
     <string name="frecuencia_domingos_e">Domingos y Feriados (8,00 min)</string>
+    <string name="linea_e_hacia_arriba">Hacia Bolivar  </string>
+    <string name="linea_e_hacia_abajo">Hacia Plaza de los Virreyes  </string>
 
     //Linea H
     <string name="linea_h">Linea H</string>
@@ -61,6 +71,8 @@
     <string name="frecuencia_dias_habiles_h">Días Hábiles (5,45 min)</string>
     <string name="frecuencia_sabados_h">Sábados (8,00 min)</string>
     <string name="frecuencia_domingos_h">Domingos y Feriados (10,00 min)</string>
+    <string name="linea_h_hacia_arriba">Hacia Las Heras  </string>
+    <string name="linea_h_hacia_abajo">Hacia Hospitales  </string>
 
     /Precios
     <string name="precios_cant_viajes">Cantidad de viajes mensuales</string>

@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@android:color/background_dark"
-    android:padding="10dp">
+    >
 
-
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/linearLayout">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-
+        android:background="@android:color/background_dark"
         >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="5dp">
 
 
 
 
-    <TextView
+            <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/precios_cant_viajes"
+        android:fontFamily="monospace"
         android:gravity="center"
         android:textColor="#ffffff"
         android:layout_gravity="center_horizontal"
@@ -42,7 +47,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/precios_titulo_subte"
                 android:gravity="center"
-                android:textColor="#ffffff"
+                android:textColor="#fddf01"
                 android:drawableEnd="@drawable/ic_subway_white_24dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1" />
@@ -62,7 +67,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/precio_01a20"
-            android:textColor="#ffffff"
+            android:textColor="#607d8b"
             android:layout_weight="1"/>
 
         <TextView
@@ -70,7 +75,7 @@
             android:layout_height="wrap_content"
             android:text="@string/precio_21a30"
             android:gravity="center"
-            android:textColor="#ffffff"
+            android:textColor="#607d8b"
             android:layout_weight="1"/>
 
         <TextView
@@ -78,7 +83,7 @@
             android:layout_height="wrap_content"
             android:text="@string/precio_31a40"
             android:gravity="center"
-            android:textColor="#ffffff"
+            android:textColor="#607d8b"
             android:layout_weight="1"/>
 
         <TextView
@@ -86,7 +91,7 @@
             android:layout_height="wrap_content"
             android:text="@string/precio_41"
             android:gravity="center"
-            android:textColor="#ffffff"
+            android:textColor="#607d8b"
             android:layout_weight="1"/>
 
     </LinearLayout>
@@ -150,7 +155,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/precios_titulo_premetro"
                 android:gravity="center"
-                android:textColor="#ffffff"
+                android:textColor="#fdad1f"
                 android:drawableEnd="@drawable/ic_tram_white_24dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1" />
@@ -178,8 +183,9 @@
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:text="@string/precio_premetro_mensaje"
+                    android:fontFamily="monospace"
                     android:gravity="left"
-                    android:textColor="#ffffff"
+                    android:textColor="#607d8b"
                     android:layout_weight="1"/>
 
 
@@ -201,10 +207,22 @@
                 android:text="@string/precio_jubilados_pensionados"
                 android:gravity="left"
                 android:textSize="12dp"
-                android:textColor="#ffffff"
+                android:textColor="#607d8b"
                 android:layout_weight="1"/>
 
         </LinearLayout>
     </ScrollView>
-
 </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/close"
+        android:layout_gravity="right"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:onClick="btnClose"
+        android:layout_alignParentBottom="false"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

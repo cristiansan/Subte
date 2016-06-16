@@ -16,7 +16,7 @@
         android:orientation="horizontal"
         android:background="@color/colorBlueLight"
         android:elevation="@dimen/shadow"
-        android:layout_weight="1">
+        android:layout_weight="1.1">
 
         <ImageView
             android:layout_width="35dp"
@@ -65,13 +65,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorBlueLight"
-        android:text="Hacia Pza. de Mayo"
-        android:layout_gravity="center"
+        android:text="@string/linea_a_hacia_arriba"
         android:textColor="#ffffff"
-        android:gravity="center_horizontal"
-        android:paddingStart="50dp"
-        android:paddingEnd="50dp"
-        android:drawableStart="@drawable/ic_chevron_up_white_24dp"
+        android:gravity="top|right|center"
+        android:padding="2dp"
+        android:paddingEnd="10dp"
         android:drawableEnd="@drawable/ic_chevron_up_white_24dp"
         />
 
@@ -2509,15 +2507,11 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@color/colorBlueLight"
-        android:text="Hacia San Pedrito"
+        android:text="@string/linea_a_hacia_abajo"
         android:textColor="#ffffff"
-        android:gravity="bottom|center_horizontal"
-        android:autoText="false"
-        android:layout_gravity="center"
-        android:layout_weight="0.5"
-        android:paddingStart="50dp"
-        android:paddingEnd="50dp"
-        android:drawableStart="@drawable/ic_chevron_down_white_24dp"
+        android:gravity="bottom|right|center"
+        android:paddingEnd="10dp"
+        android:layout_weight="0.4"
         android:drawableEnd="@drawable/ic_chevron_down_white_24dp"
         />
 

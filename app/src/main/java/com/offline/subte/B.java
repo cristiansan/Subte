@@ -34,11 +34,20 @@ public class B extends AppCompatActivity {
     {
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
-        Dialog dialog = new Dialog(B.this);
+        final Dialog dialog = new Dialog(B.this);
         dialog.setContentView(R.layout.dialog_timer_b);
         Window window = dialog.getWindow();
         window.setBackgroundDrawableResource(android.R.color.transparent);
         dialog.show();
+
+        //cierra el dialogo
+        dialog.findViewById(R.id.close).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+        //cierra el dialogo
     }
 
     public void btnPrices(View v)
@@ -46,12 +55,20 @@ public class B extends AppCompatActivity {
         //más animaciones como: final Animation animShake = AnimationUtils.loadAnimation(this, R.anim.shake);
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
-        Dialog dialog = new Dialog(B.this);
+        final Dialog dialog = new Dialog(B.this);
         dialog.setContentView(R.layout.dialog_prices);
         Window window = dialog.getWindow();
         window.setBackgroundDrawableResource(android.R.color.transparent);
         dialog.show();
 
+        //cierra el dialogo
+        dialog.findViewById(R.id.close).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+        //cierra el dialogo
     }
 
     public void btnShare(final View v)
@@ -83,11 +100,20 @@ public class B extends AppCompatActivity {
         //más animaciones como: final Animation animShake = AnimationUtils.loadAnimation(this, R.anim.shake);
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
-        Dialog dialog = new Dialog(B.this);
+        final Dialog dialog = new Dialog(B.this);
         dialog.setContentView(R.layout.dialog_combinaciones_d_c);
         Window window = dialog.getWindow();
         window.setBackgroundDrawableResource(android.R.color.transparent);
         dialog.show();
+
+        //cierra el dialogo
+        dialog.findViewById(R.id.close).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+        //cierra el dialogo
 
     }
 
