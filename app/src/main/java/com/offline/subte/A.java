@@ -79,14 +79,23 @@ public class A extends AppCompatActivity{
     public void btnShare(final View v)
     {
 
-        Intent email = new Intent(Intent.ACTION_SEND);
+   /*     Intent email = new Intent(Intent.ACTION_SEND);
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
         email.putExtra(Intent.EXTRA_EMAIL, "");
         email.putExtra(Intent.EXTRA_SUBJECT, "Mirá esta APP de Subtes");
         email.putExtra(Intent.EXTRA_TEXT, "Hola, esta APP sobre Subtes de Buenos Aires puede serte útil:\n https://play.google.com/store/apps/details?id=com.offline.subte\n\n Saludos");
         email.setType("message/rfc822");
-        startActivityForResult(Intent.createChooser(email, getString(R.string.choose_email)), 555);
+        startActivityForResult(Intent.createChooser(email, getString(R.string.choose_email)), 555);*/
+
+        Intent sendIntent = new Intent();
+        sendIntent.setAction(Intent.ACTION_SEND);
+        sendIntent.putExtra(Intent.EXTRA_TEXT, "Subte Off-line Buenos Aires:\n https://goo.gl/05t5cb");
+        sendIntent.setType("text/plain");
+        //solo whatsapp
+        /*sendIntent.setPackage("com.whatsapp");*/
+        startActivity(sendIntent);
+
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
