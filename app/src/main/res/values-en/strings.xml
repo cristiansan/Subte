@@ -17,7 +17,7 @@
     <string name="splash_titulo_arriba">This space could be your</string>
     <string name="splash_titulo_abajo">Reserved for publicity</string>
     <string name="splash_cargando">Loading... </string>
-    <string name="version">v.1.19</string>
+    <string name="version">v.1.20</string>
 
 
     //Linea A
@@ -73,7 +73,8 @@
     <string name="frecuencia_domingos_h">Sunday and Holydays (10 min)</string>
     <string name="linea_h_hacia_arriba">To Las Heras  </string>
     <string name="linea_h_hacia_abajo">To Hospitales  </string>
-    <string name="h_in_construction"> (in construction, until July)</string>
+    <string name="h_in_construction"> (in construction)</string>
+    <string name="warning_h">CLOSED UNTIL JULY 4th FOR RENOVATIONS</string>
 
     /Precios
     <string name="precios_cant_viajes">Amount of monthly trips</string>

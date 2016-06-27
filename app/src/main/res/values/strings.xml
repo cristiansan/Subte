@@ -18,7 +18,7 @@
     <string name="splash_titulo_arriba">Este espacio puede ser tuyo</string>
     <string name="splash_titulo_abajo">Reservado para publicidad</string>
     <string name="splash_cargando">Cargando... </string>
-    <string name="version">v.1.19</string>
+    <string name="version">v.1.20</string>
 
     //Linea A
     <string name="linea_a">Linea A</string>
@@ -73,7 +73,8 @@
     <string name="frecuencia_domingos_h">Domingos y Feriados (10 min)</string>
     <string name="linea_h_hacia_arriba">a Las Heras  </string>
     <string name="linea_h_hacia_abajo">a Hospitales  </string>
-    <string name="h_in_construction"> (en Obra, hasta Julio)</string>
+    <string name="h_in_construction"> (en Obra)</string>
+    <string name="warning_h">CERRADA HASTA EL 4 JULIO POR REFACCIONES</string>
 
     /Precios
     <string name="precios_cant_viajes">Cantidad de viajes mensuales</string>
