@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     tools:context="com.offline.subte.MainActivity"
     android:orientation="vertical"
+    style="@style/AppThemeA"
     android:background="#d4d2d2">
 
 

@@ -8,7 +8,49 @@
         android:elevation="@dimen/shadow"
         android:background="@android:color/black"
         >
+        <LinearLayout
+            android:id="@+id/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="0.03"
+            >
 
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:elevation="@dimen/shadow"
+
+                android:layout_weight="1"
+                android:paddingStart="10dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:text="@string/version"
+                android:onClick="btnContactUs"
+                android:gravity="center_vertical" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:elevation="@dimen/shadow"
+
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_info_details"
+                android:onClick="btnContact"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:elevation="@dimen/shadow"
+
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|end"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_dialog_email"
+                android:onClick="btnContactUs"/>
+
+        </LinearLayout>
 
         <TableRow
             android:layout_width="match_parent"
@@ -120,48 +162,6 @@
                 android:layout_margin="5dp"/>
         </TableRow>
 
-        <LinearLayout
-            android:id="@+id/Text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_weight="0.03"
-            >
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:fontFamily="monospace"
-            android:elevation="@dimen/shadow"
-
-            android:layout_weight="1"
-            android:paddingStart="10dp"
-            android:layout_gravity="center_vertical"
-            android:textColor="#ffffff"
-            android:text="@string/version"
-            android:onClick="btnContactUs"
-            android:gravity="center_vertical" />
-
-            <ImageView
-                android:layout_width="0dp"
-                android:elevation="@dimen/shadow"
-
-                android:layout_height="match_parent"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="1"
-                android:src="@android:drawable/ic_menu_info_details"
-                android:onClick="btnContact"/>
-
-            <ImageView
-                android:layout_width="0dp"
-                android:elevation="@dimen/shadow"
-
-                android:layout_height="match_parent"
-                android:layout_gravity="center_vertical|end"
-                android:layout_weight="1"
-                android:src="@android:drawable/ic_dialog_email"
-                android:onClick="btnContactUs"/>
-
-        </LinearLayout>
     </TableLayout>
 
