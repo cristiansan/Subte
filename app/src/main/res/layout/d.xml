@@ -150,7 +150,28 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Bartolomé Mitre"
+                    android:paddingTop="6dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorGreen"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Tte.Juan Domingo Perón"
                     />
 
             </LinearLayout>
@@ -171,73 +192,14 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:text="Sarmiento"
+                    android:paddingBottom="6dp" />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
 
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
 
             //-----------------------------
 
@@ -297,9 +259,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Corrientes"
                     />
 
             </LinearLayout>
@@ -320,7 +283,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Lavalle"
                     />
 
             </LinearLayout>
@@ -339,54 +302,15 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Tucumán"
                     />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
 
             //-----------------------------
 
@@ -438,9 +362,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Viamonte"
                     />
 
             </LinearLayout>
@@ -461,7 +386,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Av.Córdoba"
                     />
 
             </LinearLayout>
@@ -482,7 +407,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Paraná"
                     />
 
             </LinearLayout>
@@ -503,7 +428,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Montevideo"
                     />
 
             </LinearLayout>
@@ -522,9 +447,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Rodriguez Peña"
                     />
 
             </LinearLayout>
@@ -578,9 +504,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Callao"
                     />
 
             </LinearLayout>
@@ -601,7 +528,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Riobamba"
                     />
 
             </LinearLayout>
@@ -622,7 +549,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Ayacucho"
                     />
 
             </LinearLayout>
@@ -641,33 +568,15 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Junín"
                     />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
 
 
 
@@ -722,9 +631,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Pte.José E. Uriburu"
                     />
 
             </LinearLayout>
@@ -745,7 +655,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Azcuénaga"
                     />
 
             </LinearLayout>
@@ -766,7 +676,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Paraguay"
                     />
 
             </LinearLayout>
@@ -787,7 +697,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Marcelo T. de Alvear"
                     />
 
             </LinearLayout>
@@ -806,9 +716,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Larrea"
                     />
 
             </LinearLayout>
@@ -866,9 +777,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Pueyrredón"
                     />
 
             </LinearLayout>
@@ -889,7 +801,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Ecuador"
                     />
 
             </LinearLayout>
@@ -910,7 +822,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Dr.Tomás M.de Anchorena"
                     />
 
             </LinearLayout>
@@ -929,33 +841,15 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Laprida"
                     />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
 
             //------------------------------------------------------------
 
@@ -1009,9 +903,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Aguero"
                     />
 
             </LinearLayout>
@@ -1032,7 +927,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Gallo/Austria"
                     />
 
             </LinearLayout>
@@ -1053,7 +948,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Sánchez de Bustamante"
                     />
 
             </LinearLayout>
@@ -1074,7 +969,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Billinghurst"
                     />
 
             </LinearLayout>
@@ -1093,9 +988,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Av.Cnel. Díaz"
                     />
 
             </LinearLayout>
@@ -1150,9 +1046,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Bulnes"
                     />
 
             </LinearLayout>
@@ -1173,7 +1070,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Vidt"
                     />
 
             </LinearLayout>
@@ -1194,7 +1091,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Jerónimo Salguero"
                     />
 
             </LinearLayout>
@@ -1215,7 +1112,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Julián Alvarez"
                     />
 
             </LinearLayout>
@@ -1234,9 +1131,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Aráoz"
                     />
 
             </LinearLayout>
@@ -1291,9 +1189,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Av.Raúl Scalabrini Ortiz"
                     />
 
             </LinearLayout>
@@ -1314,7 +1213,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Malabia"
                     />
 
             </LinearLayout>
@@ -1335,7 +1234,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Armenia"
                     />
 
             </LinearLayout>
@@ -1356,7 +1255,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Virasoro"
                     />
 
             </LinearLayout>
@@ -1377,11 +1276,31 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Gurruchaga"
                     />
 
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorGreen"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Av.Gral. Las Heras"
+                    />
+
+            </LinearLayout>
             //-----------------------------
 
             <LinearLayout
@@ -1434,9 +1353,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Av.Sarmiento"
                     />
 
             </LinearLayout>
@@ -1457,7 +1377,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Uriarte"
                     />
 
             </LinearLayout>
@@ -1478,7 +1398,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Darregueyra"
                     />
 
             </LinearLayout>
@@ -1499,7 +1419,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Fray Justo Sta.María de Oro"
                     />
 
             </LinearLayout>
@@ -1518,9 +1438,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Godoy Cruz"
                     />
 
             </LinearLayout>
@@ -1575,9 +1496,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Av.Juan B.Justo"
                     />
 
             </LinearLayout>
@@ -1598,7 +1520,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Humbolt"
                     />
 
             </LinearLayout>
@@ -1619,7 +1541,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Fitz Roy"
                     />
 
             </LinearLayout>
@@ -1640,7 +1562,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Bonpland"
                     />
 
             </LinearLayout>
@@ -1661,7 +1583,49 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Angel Justiniano Carranza"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorGreen"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Dr.Emilio Ravignani"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorGreen"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Arévalo"
                     />
 
             </LinearLayout>
@@ -1716,130 +1680,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
-
-            </LinearLayout>
-
-
-            //----------------------------------
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/colorGreyLight"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-                    android:src="@android:drawable/radiobutton_off_background"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:paddingTop="6dp"
-                    android:paddingBottom="6dp"
                     android:gravity="center|left"
-                    android:layout_marginLeft="10dp"
-                    android:text="Olleros"
-                    android:textStyle="bold"
-                    android:textSize="25dp"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center|left"
-                    android:text=" Av.Cabildo 700"
-                    android:singleLine="true"
-                    android:textColor="@color/colorGrey"
+                    android:layout_marginLeft="15dp"
+                    android:text="Av.Dorrego"
                     />
 
             </LinearLayout>
@@ -1860,7 +1704,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Concepción Arenal"
                     />
 
             </LinearLayout>
@@ -1881,7 +1725,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Santos Dumont"
                     />
 
             </LinearLayout>
@@ -1902,7 +1746,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Tte.Benjamín Matienzo"
                     />
 
             </LinearLayout>
@@ -1923,7 +1767,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Jorge Newbery"
                     />
 
             </LinearLayout>
@@ -1944,48 +1788,194 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Maure"
                     />
-
             </LinearLayout>
-
-            //----------------------------------
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/colorGreyLight"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-                    android:src="@android:drawable/radiobutton_off_background"/>
-                <TextView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="6dp"
-                    android:paddingBottom="6dp"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="10dp"
-                    android:text="José Hernández"
-                    android:textStyle="bold"
-                    android:textSize="25dp"/>
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center|left"
-                    android:text=" Av.Cabildo 1700"
-                    android:singleLine="true"
-                    android:textColor="@color/colorGrey"
-                    />
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
 
-            </LinearLayout>
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Gorostiaga"
+                        />
 
-            <LinearLayout
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="6dp"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Olleros"
+                        />
+
+                </LinearLayout>
+
+
+                //----------------------------------
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorGreyLight"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+                        android:src="@android:drawable/radiobutton_off_background"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="6dp"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:text="Olleros"
+                        android:textStyle="bold"
+                        android:textSize="25dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text=" Av.Cabildo 700"
+                        android:singleLine="true"
+                        android:textColor="@color/colorGrey"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="6dp"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Av.Federico Lacroze"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Teodoro García"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Palpa"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Aguilar"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Céspedes"
+                        />
+
+                </LinearLayout><LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -2001,374 +1991,457 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Zabala"
                     />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Virrey Loreto"
+                        />
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
+                </LinearLayout>
 
-                    />
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Virrey Arredondo"
+                        />
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
+                </LinearLayout>
 
-                    />
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="6dp"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Virrey Olaguer y Feliu"
+                        />
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
+                </LinearLayout>
 
-                    />
-                <TextView
+                //----------------------------------
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:background="@color/colorGreyLight"
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <ImageView
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+                        android:src="@android:drawable/radiobutton_off_background"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="6dp"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:text="José Hernández"
+                        android:textStyle="bold"
+                        android:textSize="25dp"/>
 
-            //----------------------------------
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text=" Av.Cabildo 1700"
+                        android:singleLine="true"
+                        android:textColor="@color/colorGrey"
+                        />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/colorGreyLight"
-                android:orientation="horizontal">
+                </LinearLayout>
 
-                <ImageView
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-                    android:src="@android:drawable/radiobutton_off_background"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="6dp"
-                    android:paddingBottom="6dp"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="10dp"
-                    android:text="Juramento"
-                    android:textStyle="bold"
-                    android:textSize="25dp"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center|left"
-                    android:text=" Av.Cabildo 2000"
-                    android:singleLine="true"
-                    android:textColor="@color/colorGrey"
-                    />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="6dp"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Virrey del Pino"
+                        />
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
+                </LinearLayout>
 
-                    />
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="José Hernández"
+                        />
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
+                </LinearLayout>
 
-                    />
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="La Pampa"
+                        />
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
+                </LinearLayout>
 
-                    />
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Mariscal Antonio José de Sucre"
+                        />
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
+                </LinearLayout>
 
-                    />
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
 
-            //----------------------------------
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="6dp"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Echeverría"
+                        />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/colorGreyLight"
-                android:orientation="horizontal">
+                </LinearLayout>
 
-                <ImageView
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-                    android:src="@android:drawable/radiobutton_off_background"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="6dp"
-                    android:paddingBottom="6dp"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="10dp"
-                    android:text="Cong.de Tucumán"
-                    android:textStyle="bold"
-                    android:textSize="25dp"/>
+                //----------------------------------
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center|left"
-                    android:text=" Av.Cabildo 2800"
-                    android:singleLine="true"
-                    android:textColor="@color/colorGrey"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:background="@color/colorGreyLight"
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <ImageView
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+                        android:src="@android:drawable/radiobutton_off_background"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="6dp"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:text="Juramento"
+                        android:textStyle="bold"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text=" Av.Cabildo 2000"
+                        android:singleLine="true"
+                        android:textColor="@color/colorGrey"
+                        />
+                </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
-
-                    />
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="6dp"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Juramento"
+                        />
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
+                </LinearLayout>
 
-                    />
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Mendoza"
+                        />
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
+                </LinearLayout>
 
-                    />
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Av.Olazábal"
+                        />
 
-                <View
-                    android:layout_width="39dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorGreen"
+                </LinearLayout>
 
-                    />
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center|left"
-                    android:layout_marginLeft="15dp"
-                    android:text="Calles"
-                    />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Blanco Encalada"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Monroe"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Frankin D.Roosevelt"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Dr.Pedro Ignacio Rivera"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="6dp"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="15dp"
+                        android:text="Manuel Ugarte"
+                        />
+
+                </LinearLayout>
+                //----------------------------------
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorGreyLight"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="39dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGreen"
+                        android:src="@android:drawable/radiobutton_off_background"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="6dp"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:text="Cong.de Tucumán"
+                        android:textStyle="bold"
+                        android:textSize="25dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text=" Av.Cabildo 2800"
+                        android:singleLine="true"
+                        android:textColor="@color/colorGrey"
+                        />
+
+                </LinearLayout>
+
+
 
 
 
