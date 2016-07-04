@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
         overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
+
     }
 
     public void btnB(View v)

@@ -1,7 +1,9 @@
 {
   "project_info": {
-    "project_number": "638097127992",
-    "project_id": "subte-off-line-beb39"
+    /*"project_number": "638097127992",*/
+    "project_number": "862913377531",
+    /*"project_id": "subte-off-line-beb39"*/
+    "project_id": "subte-off-line"
   },
   "client": [
     {
@@ -14,7 +16,8 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA78Qoncc-XAy72eZEDZhOw2JrpaNOi9e0"
+          /*"current_key": "AIzaSyA78Qoncc-XAy72eZEDZhOw2JrpaNOi9e0"*/
+          "current_key": "ef74b623651cc09c840be242ca0987c09172c98b"
         }
       ],
       "services": {

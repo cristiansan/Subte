@@ -6,6 +6,7 @@
     tools:context="com.offline.subte.MainActivity"
     android:orientation="vertical"
     style="@style/AppThemeA"
+    android:transitionName="a"
     android:background="#d4d2d2">
 
 
