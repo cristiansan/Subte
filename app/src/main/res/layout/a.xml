@@ -2086,7 +2086,7 @@
                     android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Puan"
                     />
 
             </LinearLayout>
@@ -2107,7 +2107,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Nicasio Oroño"
                     />
 
             </LinearLayout>
@@ -2128,7 +2128,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Miro"
                     />
 
             </LinearLayout>
@@ -2149,7 +2149,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="José Juan Biedma"
                     />
 
             </LinearLayout>
@@ -2171,7 +2171,72 @@
                     android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Malvinas Argentinas"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Morelos"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Tte.Gral. Donato Alvarez / Curapaligue"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Terrero / Pumahuaca"
                     />
 
             </LinearLayout>
@@ -2230,7 +2295,7 @@
                     android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Av. Boyacá / Av.Carabobo"
                     />
 
             </LinearLayout>
@@ -2251,7 +2316,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Fray Luis Beltrán / Lautaro"
                     />
 
             </LinearLayout>
@@ -2272,7 +2337,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Granaderos / Camacua"
                     />
 
             </LinearLayout>
@@ -2293,7 +2358,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Gavilán / Av.Cnel.Esteban Bonorino"
                     />
 
             </LinearLayout>
@@ -2315,7 +2380,29 @@
                     android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Caracas / Membrillar"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlueLight"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Fray Cayetano Rodriguez / Av.Rivera Indarte"
                     />
 
             </LinearLayout>
@@ -2374,7 +2461,7 @@
                     android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Gral.José Gervasio Artigas / Pedernera"
                     />
 
             </LinearLayout>
@@ -2395,7 +2482,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Estado Plurinacional de Bolivia / Varela"
                     />
 
             </LinearLayout>
@@ -2416,7 +2503,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Condarco / Culpina"
                     />
 
             </LinearLayout>
@@ -2437,7 +2524,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="La Porteñá"
                     />
 
             </LinearLayout>
@@ -2459,7 +2546,7 @@
                     android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Terrada / Lafuente"
                     />
 
             </LinearLayout>
