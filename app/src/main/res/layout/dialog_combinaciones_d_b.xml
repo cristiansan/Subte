@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@color/colorBlack"
+        android:background="@drawable/custom_background_dialog"
         android:padding="10dp"
         android:layout_margin="15dp">
 
@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/close"
         android:layout_gravity="right"
-        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:src="@drawable/ic_cancel_white_36dp"
         android:onClick="btnClose"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"

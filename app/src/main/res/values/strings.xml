@@ -3,8 +3,8 @@
     <string name="contact">Si tenés sugerencias podés escribirme acá:</string>
     <string name="contact_us">Contactame   </string>
     <string name="who_am_i">Esta APP te permite ver los nombres, horarios, combinaciones y las calles entre cada estación.\n\nSi tenés información o ideas para agregarle a esta APP por favor contactame.</string>
-    <string name="vertical">Si la información mostrada no entra en tu pantalla... girala:</string>
-    <string name="rate">Ayudame con una buena calificación en el store para seguir mejorando, GRACIAS!!</string>
+    <string name="vertical">Si algunos textos no entran en tu pantalla... girala:</string>
+    <string name="rate">Ayudame con 5 estrellas en el store para seguir mejorando, GRACIAS!!</string>
 
     <string name="contact_email">tangolytics@gmail.com</string>
     <string name="choose_email">Selecciona tu email</string>
@@ -14,10 +14,10 @@
     <string name="compartir">Compartir</string>
     <string name="primer_subte">Primer Subte</string>
     <string name="ultimo_subte">Ultimo Subte</string>
-    <string name="splash_titulo_arriba">Este espacio puede ser tuyo</string>
+    <string name="splash_titulo_arriba">Espacio disponible para anunciantes</string>
     <string name="splash_titulo_abajo">Reservado para publicidad</string>
     <string name="splash_cargando">Cargando... </string>
-    <string name="version">v.1.23</string>
+    <string name="version">v.1.24</string>
 
     //Linea A
     <string name="linea_a">Linea A</string>
@@ -75,7 +75,7 @@
     <string name="h_in_construction"> (en Obra)</string>
     <string name="warning_h">CERRADA HASTA EL 4 JULIO POR REFACCIONES</string>
 
-    /Precios
+    //Precios
     <string name="precios_cant_viajes">Cantidad de viajes mensuales</string>
     <string name="precios_titulo_subte">Subte</string>
     <string name="precios_titulo_premetro">Premetro</string>
@@ -89,12 +89,11 @@
     <string name="precio4">$2.75</string>
     <string name="precio5">$1.50</string>
     <string name="precio_premetro_mensaje">Precio único, no cambia por cantidad de viajes</string>
-    <string name="precio_jubilados_pensionados">- Pases de: jubilados, pensionados, discapacitados y estudiantes primarios, son subsidiados en su totalidad.\n
-- Quien tienen planes sociales, desempleados, indigentes, víctimas de Cromañón, ex combatientes de Malvinas, su valor es $ 2,50.\n
-- Abono estudiantil es de $ 1,04\n
-        - Abono maestro es de $ 2,27.\n</string>
+    <string name="precio_jubilados_pensionados">Pases de: jubilados, pensionados, discapacitados y estudiantes primarios, son subsidiados en su totalidad.\n
+        Quien tienen planes sociales, desempleados, indigentes, víctimas de Cromañón, ex combatientes de Malvinas, su valor es $ 2,50.\n
+        Abono estudiantil es de $ 1,04\nAbono maestro es de $ 2,27.\n</string>
 
-    /Dialogos combinaciones
+    //Dialogos combinaciones
     <string name="combinacion_con_lineas">Combinación con líneas:</string>
 
 </resources>

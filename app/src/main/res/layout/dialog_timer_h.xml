@@ -16,7 +16,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/background_dark"
+        android:background="@drawable/custom_background_dialog"
 
 
         >
@@ -159,12 +159,11 @@
 
     //----------------------------------
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_margin="5dp"
-        android:background="@android:drawable/button_onoff_indicator_off"
-        android:layout_weight="1" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/darker_gray" />
 
     <TextView
         android:layout_width="match_parent"
@@ -285,12 +284,11 @@
 
     //----------------------------------
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_margin="5dp"
-        android:background="@android:drawable/button_onoff_indicator_off"
-        android:layout_weight="1" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/darker_gray" />
 
     <TextView
         android:layout_width="match_parent"
@@ -416,7 +414,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/close"
         android:layout_gravity="right"
-        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:src="@drawable/ic_cancel_white_36dp"
         android:onClick="btnClose"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />

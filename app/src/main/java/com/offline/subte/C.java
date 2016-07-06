@@ -18,6 +18,7 @@ public class C extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.c);
+
     }
     public void btnMain(View v)
     {
@@ -150,4 +151,5 @@ public class C extends AppCompatActivity {
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+
 }
