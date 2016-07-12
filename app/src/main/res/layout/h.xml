@@ -150,6 +150,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Av. Gral. Las Heras"
@@ -297,6 +298,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Arenales"
@@ -338,8 +340,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text="@string/h_in_construction"
-                    android:textColor="@color/colorRed"
+                    android:text="Av. Santa Fe 2489"
+
                     android:singleLine="true"
                     />
 
@@ -359,6 +361,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Av. Santa Fe"
@@ -422,6 +425,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Paraguay"
@@ -484,6 +488,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Av. Córdoba"
@@ -568,6 +573,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Lavalle"
@@ -641,6 +647,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Valentín Gómez"
@@ -704,6 +711,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Bartolomé Mitre"
@@ -784,9 +792,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Av.Rivadavia"
                     />
 
             </LinearLayout>
@@ -807,7 +816,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Hipólito Yrigoyen"
                     />
 
             </LinearLayout>
@@ -828,7 +837,77 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
-                    android:text="Calles"
+                    android:text="Moreno"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorYellow"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorYellow"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Av.Belgrano"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorYellow"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorYellow"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Adolfo Alsina"
                     />
 
             </LinearLayout>
@@ -962,6 +1041,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Carlos Calvo"
@@ -1036,6 +1116,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Av. San Juan"
@@ -1120,6 +1201,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Av. Juan de Garay"
@@ -1194,6 +1276,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Salcedo"
@@ -1278,6 +1361,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Rondeau"
@@ -1352,6 +1436,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Catamarca"
@@ -1436,6 +1521,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Gral. Urquiza"
@@ -1494,6 +1580,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="24 de Noviembre"
@@ -1599,6 +1686,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="15dp"
                     android:text="Uspallata"
