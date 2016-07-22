@@ -14,10 +14,12 @@ import android.view.animation.AnimationUtils;
  */
 public class C extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.c);
+
 
     }
     public void btnMain(View v)
@@ -30,7 +32,10 @@ public class C extends AppCompatActivity {
 
     }
     public void btnTimer(View v)
+
     {
+
+        
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
         final Dialog dialog = new Dialog(C.this);
@@ -49,6 +54,8 @@ public class C extends AppCompatActivity {
         //cierra el dialogo
 
     }
+
+
 
     public void btnPrices(View v)
     {

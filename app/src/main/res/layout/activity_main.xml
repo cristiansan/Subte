@@ -1,13 +1,10 @@
-
-
-    <TableLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center_horizontal"
-        android:elevation="@dimen/shadow"
-        android:background="@android:color/black"
-        >
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    android:elevation="@dimen/shadow"
+    android:background="@android:color/black">
         <LinearLayout
             android:id="@+id/Text"
             android:layout_width="wrap_content"
@@ -93,6 +90,7 @@
                 android:layout_margin="5dp"/>
 
         </TableRow>
+
 
         <TableRow
             android:layout_width="match_parent"

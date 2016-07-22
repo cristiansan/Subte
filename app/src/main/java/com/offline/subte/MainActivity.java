@@ -10,10 +10,12 @@ import android.view.animation.AnimationUtils;
 
 import com.google.android.gms.analytics.Tracker;
 
-
 public class MainActivity extends AppCompatActivity
 {
     private Tracker mTracker;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,8 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
+
+
 
         // Obtain the shared Tracker instance.------------------------------------------------------
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
@@ -41,6 +45,8 @@ public class MainActivity extends AppCompatActivity
         overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
 
     }
+
+
 
     public void btnB(View v)
     {

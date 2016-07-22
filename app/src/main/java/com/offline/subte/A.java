@@ -21,6 +21,7 @@ public class A extends AppCompatActivity{
 
 
 
+
     }
     public void btnMain(View v)
     {
@@ -101,6 +102,12 @@ public class A extends AppCompatActivity{
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     public void btnED(View v)
     {
+/*// Native ads --------------------------------------------------------------
+        NativeExpressAdView adView = (NativeExpressAdView) findViewById(R.id.adViewDialogED);
+        adView.loadAd(new AdRequest.Builder().build());
+        setContentView(R.layout.dialog_combinaciones_e_d);
+        // end ads -----------------------------------------------------------------*/
+
         //más animaciones como: final Animation animShake = AnimationUtils.loadAnimation(this, R.anim.shake);
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
@@ -109,6 +116,7 @@ public class A extends AppCompatActivity{
         Window window = dialog.getWindow();
         window.setBackgroundDrawableResource(android.R.color.transparent);
         dialog.show();
+
 
         //cierra el dialogo
         dialog.findViewById(R.id.close).setOnClickListener(new View.OnClickListener() {

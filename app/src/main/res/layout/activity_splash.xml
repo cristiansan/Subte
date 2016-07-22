@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_weight="1"
     android:background="#fdc904"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
-    <TextView
+   <!-- <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -19,8 +19,21 @@
         android:text="@string/splash_titulo_arriba"
         android:id="@+id/splash_titulo_arriba"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
+        android:layout_centerHorizontal="true" />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="30dp"
+        android:text="@string/version"
+        android:id="@+id/splash_titulo_abajo"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -59,19 +72,16 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_margin="5dp"
-        android:layout_weight="1"
-        android:textSize="18dp"
-        android:fontFamily="monospace"
-        android:layout_marginBottom="30dp"
-        android:text="@string/version"
-        android:id="@+id/splash_titulo_abajo"
-        android:layout_alignParentBottom="true"
+
+
+    <com.google.android.gms.ads.NativeExpressAdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="center_horizontal"
-        android:gravity="bottom" />
+        android:layout_alignParentBottom="true"
+        ads:adSize="320x150"
+        ads:adUnitId="ca-app-pub-2298399460655020/2124718590">
+    </com.google.android.gms.ads.NativeExpressAdView>
 
 </LinearLayout>
