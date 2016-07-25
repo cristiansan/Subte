@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.NativeExpressAdView;
 import com.google.android.gms.analytics.Tracker;
 
 public class MainActivity extends AppCompatActivity
@@ -26,6 +28,10 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
 
+        // Native ads --------------------------------------------------------------
+        NativeExpressAdView adView = (NativeExpressAdView) findViewById(R.id.adView);
+        adView.loadAd(new AdRequest.Builder().build());
+        // end ads -----------------------------------------------------------------
 
         // Obtain the shared Tracker instance.------------------------------------------------------
         AnalyticsApplication application = (AnalyticsApplication) getApplication();

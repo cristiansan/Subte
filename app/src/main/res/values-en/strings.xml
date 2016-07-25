@@ -17,7 +17,7 @@
     <string name="splash_titulo_arriba">This space could be your</string>
     <string name="splash_titulo_abajo">Reserved for publicity</string>
     <string name="splash_cargando">Loading... </string>
-    <string name="version">v.1.26</string>
+    <string name="version">v.1.27</string>
 
 
     //Linea A
@@ -94,5 +94,10 @@
 
     /Dialogos combinaciones
     <string name="combinacion_con_lineas">Link with line:</string>
+
+    //ADS
+    <string name="native_moztaza">ca-app-pub-2298399460655020/2124718590</string>
+    <string name="native_black">ca-app-pub-2298399460655020/5979508591</string>
+    <string name="banner">ca-app-pub-2298399460655020/6585270993</string>
 
 </resources>

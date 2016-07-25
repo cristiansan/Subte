@@ -81,7 +81,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         ads:adSize="320x150"
-        ads:adUnitId="ca-app-pub-2298399460655020/2124718590">
+        ads:adUnitId="@string/native_moztaza">
     </com.google.android.gms.ads.NativeExpressAdView>
 
 </LinearLayout>

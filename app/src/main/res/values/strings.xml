@@ -17,7 +17,7 @@
     <string name="splash_titulo_arriba">Espacio disponible para anunciantes</string>
     <string name="splash_titulo_abajo">Reservado para publicidad</string>
     <string name="splash_cargando">Cargando... </string>
-    <string name="version">v.1.26</string>
+    <string name="version">v.1.27</string>
 
     //Linea A
     <string name="linea_a">Linea A</string>
@@ -95,5 +95,11 @@
 
     //Dialogos combinaciones
     <string name="combinacion_con_lineas">Combinación con líneas:</string>
+
+    //ADS
+    <string name="native_moztaza">ca-app-pub-2298399460655020/2124718590</string>
+    <string name="native_black">ca-app-pub-2298399460655020/5979508591</string>
+    <string name="banner">ca-app-pub-2298399460655020/6585270993</string>
+
 
 </resources>
