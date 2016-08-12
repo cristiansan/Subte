@@ -7,9 +7,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.NativeExpressAdView;
-
 
 public class Splash extends AppCompatActivity {
 
@@ -17,10 +14,10 @@ public class Splash extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        // Native ads --------------------------------------------------------------
+      /*  // Native ads --------------------------------------------------------------
         NativeExpressAdView adView = (NativeExpressAdView) findViewById(R.id.adView);
         adView.loadAd(new AdRequest.Builder().build());
-        // end ads -----------------------------------------------------------------
+        // end ads -----------------------------------------------------------------*/
 
 
         int secondsDelayed = 1;
@@ -31,6 +28,6 @@ public class Splash extends AppCompatActivity {
                 overridePendingTransition(R.anim.fadein, R.anim.fadeout);
 
             }
-        }, secondsDelayed * 7000);
+        }, secondsDelayed * 2000);
     }
 }

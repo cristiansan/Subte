@@ -12,6 +12,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:largeHeap="true"
         android:name=".AnalyticsApplication"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
 
@@ -72,6 +73,13 @@
 
         <activity android:name=".H"
             android:theme="@style/AppThemeH"
+            >
+
+        </activity>
+
+        <activity android:name=".Mapa"
+            android:allowBackup="true"
+            android:theme="@style/AppThemeMain"
             >
 
         </activity>

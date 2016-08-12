@@ -124,7 +124,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        style="@style/CustomBackgroundAds">
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Mapa"
+            android:textColor="#828283"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:onClick="btnMapa"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        style="@style/CustomBackgroundAds"
+        android:visibility="gone">
 
         <com.google.android.gms.ads.NativeExpressAdView
 
@@ -134,7 +154,7 @@
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
             ads:adUnitId="@string/native_moztaza"
-            ads:adSize="320x132"
+            ads:adSize="320x150"
             >
 
 
@@ -167,7 +187,6 @@
         <ImageView
             android:layout_width="0dp"
             android:elevation="@dimen/shadow"
-
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"

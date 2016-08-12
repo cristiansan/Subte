@@ -40,8 +40,6 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-
-
     public void btnA(View v)
     {
         Intent intent = new Intent(getApplicationContext(), A.class);
@@ -51,8 +49,6 @@ public class MainActivity extends AppCompatActivity
         overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
 
     }
-
-
 
     public void btnB(View v)
     {
@@ -93,6 +89,15 @@ public class MainActivity extends AppCompatActivity
     public void btnH(View v)
     {
         Intent intent = new Intent(getApplicationContext(), H.class);
+        startActivity(intent);
+        final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
+        v.startAnimation(blink);
+        overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
+    }
+
+    public void btnMapa(View v)
+    {
+        Intent intent = new Intent(getApplicationContext(), Mapa.class);
         startActivity(intent);
         final Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
         v.startAnimation(blink);
