@@ -138,7 +138,7 @@
         <item name="android:shadowDx">1</item>
         <item name="android:shadowDy">1</item>
         <item name="android:shadowRadius">0.6</item>
-        <item name="android:background">@drawable/custom_background_adds_main</item>
+        <item name="android:background">@drawable/custom_background_dialog</item>
     </style>
 
 </resources>
