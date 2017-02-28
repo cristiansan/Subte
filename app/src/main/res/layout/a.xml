@@ -950,7 +950,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" Av.Rivadavia 24000"
+                    android:text=" Av.Rivadavia 2400"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
                     />
