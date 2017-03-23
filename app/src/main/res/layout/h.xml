@@ -331,7 +331,7 @@
                     android:paddingBottom="6dp"
                     android:gravity="center|left"
                     android:layout_marginLeft="10dp"
-                    android:text="(Sta Fe)Carlos Jáuregui"
+                    android:text="Carlos Jáuregui"
                     android:textStyle="bold"
                     android:textSize="25dp"
                     />
