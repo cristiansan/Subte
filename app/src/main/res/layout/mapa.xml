@@ -24,7 +24,7 @@
         android:layout_width="877dp"
         android:layout_height="620dp"
         android:src="@drawable/mapa"
-        android:scaleType="fitXY" />
+        android:scaleType="centerCrop" />
 
 
 
