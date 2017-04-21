@@ -80,8 +80,9 @@
         <activity android:name=".Mapa"
             android:allowBackup="true"
             android:theme="@style/AppThemeMain"
-            android:screenOrientation="landscape"
+
             >
+            <!--android:screenOrientation="portrait"-->
 
         </activity>
 

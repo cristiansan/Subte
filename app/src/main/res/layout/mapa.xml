@@ -11,23 +11,22 @@
         android:layout_height="match_parent">
 
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="10dp"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:weightSum="1">
 
-    <ImageView
-        android:id="@+id/mapa"
-        android:layout_width="877dp"
-        android:layout_height="620dp"
-        android:src="@drawable/mapa"
-        android:scaleType="centerCrop" />
+        <ImageView
+            android:id="@+id/mapa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/mapa"
+            android:scaleType="centerCrop" />
 
-
-
-</LinearLayout>
+        </LinearLayout>
     </HorizontalScrollView>
+
 </ScrollView>
