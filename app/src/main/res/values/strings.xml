@@ -4,7 +4,8 @@
     <string name="contact_us">Contactame   </string>
     <string name="who_am_i">Esta APP te permite ver los nombres, horarios, combinaciones y las calles entre cada estación.\n\nSi tenés información o ideas para agregarle a esta APP por favor contactame.</string>
     <string name="vertical">Si algunos textos no entran en tu pantalla... girala:</string>
-    <string name="rate">Ayudame con 5 estrellas en el store para seguir mejorando, GRACIAS!!</string>
+    <string name="rate">Ayudame con 5 estrellas en el store para seguir mejorando, GRACIAS!!\n\
+                        Si querés donar algunos centavos de BTC, mi cta es: 19oenMRPHrab8V2oXQmGuYjPit4CG8CzVk y me podés encontrar en telegram en el grupo @Argenpool como ARG_Cristian</string>
 
     <string name="contact_email">tangolytics@gmail.com</string>
     <string name="choose_email">Selecciona tu email</string>
@@ -17,12 +18,12 @@
     <string name="splash_titulo_arriba">Espacio disponible para anunciantes</string>
     <string name="splash_titulo_abajo">Reservado para publicidad</string>
     <string name="splash_cargando">Cargando... </string>
-    <string name="version">v.1.35</string>
+    <string name="version">v.1.36</string>
 
     //Linea A
     <string name="linea_a">Linea A</string>
     <string name="cabeceras_a">(Viaje entre cabeceras: 26 minutos)</string>
-    <string name="frecuencia_dias_habiles_a">Días Hábiles (3,30 min)</string>
+    <string name="frecuencia_dias_habiles_a">Días Hábiles (3 min)</string>
     <string name="frecuencia_sabados_a">Sábados (7 min)</string>
     <string name="frecuencia_domingos_a">Domingos y Feriados (8 min)</string>
     <string name="linea_a_hacia_arriba">a Pza. de Mayo  </string>
@@ -31,16 +32,16 @@
     //Linea B
     <string name="linea_b">Linea B</string>
     <string name="cabeceras_b">(Viaje entre cabeceras: 27 minutos)</string>
-    <string name="frecuencia_dias_habiles_b">Días Hábiles (3 min)</string>
+    <string name="frecuencia_dias_habiles_b">Días Hábiles (2,49 min)</string>
     <string name="frecuencia_sabados_b">Sábados (7 min)</string>
-    <string name="frecuencia_domingos_b">Domingos y Feriados (8 min)</string>
+    <string name="frecuencia_domingos_b">Domingos y Feriados (8,05 min)</string>
     <string name="linea_b_hacia_arriba">a Leandro N.Alem  </string>
     <string name="linea_b_hacia_abajo">a Juan Manuel de Rosas  </string>
 
     //Linea C
     <string name="linea_c">Linea C</string>
     <string name="cabeceras_c">(Viaje entre cabeceras: 13 minutos)</string>
-    <string name="frecuencia_dias_habiles_c">Días Hábiles (3,30 min )</string>
+    <string name="frecuencia_dias_habiles_c">Días Hábiles (2,57 min )</string>
     <string name="frecuencia_sabados_c">Sábados (6 min)</string>
     <string name="frecuencia_domingos_c">Domingos y Feriados (7,30 min)</string>
     <string name="linea_c_hacia_arriba">a Retiro  </string>
@@ -49,7 +50,7 @@
     //Linea D
     <string name="linea_d">Linea D</string>
     <string name="cabeceras_d">(Viaje entre cabeceras: 26 minutos)</string>
-    <string name="frecuencia_dias_habiles_d">Días Hábiles (3 min)</string>
+    <string name="frecuencia_dias_habiles_d">Días Hábiles (2,44 min)</string>
     <string name="frecuencia_sabados_d">Sábados (7 min)</string>
     <string name="frecuencia_domingos_d">Domingos y Feriados (7 min)</string>
     <string name="linea_d_hacia_arriba">a Catedral  </string>
@@ -58,18 +59,18 @@
     //Linea E
     <string name="linea_e">Linea E</string>
     <string name="cabeceras_e">(Viaje entre cabeceras: 24 minutos)</string>
-    <string name="frecuencia_dias_habiles_e">Días Hábiles (5 min)</string>
-    <string name="frecuencia_sabados_e">Sábados (8 min)</string>
-    <string name="frecuencia_domingos_e">Domingos y Feriados (8 min)</string>
+    <string name="frecuencia_dias_habiles_e">Días Hábiles (5,06 min)</string>
+    <string name="frecuencia_sabados_e">Sábados (8,05 min)</string>
+    <string name="frecuencia_domingos_e">Domingos y Feriados (8,05 min)</string>
     <string name="linea_e_hacia_arriba">a Bolivar  </string>
     <string name="linea_e_hacia_abajo">a Plaza de los Virreyes  </string>
 
     //Linea H
     <string name="linea_h">Linea H</string>
     <string name="cabeceras_h">(Viaje entre cabeceras: 18 minutos)</string>
-    <string name="frecuencia_dias_habiles_h">Días Hábiles (5,45 min)</string>
-    <string name="frecuencia_sabados_h">Sábados (8 min)</string>
-    <string name="frecuencia_domingos_h">Domingos y Feriados (10 min)</string>
+    <string name="frecuencia_dias_habiles_h">Días Hábiles (2,57 min)</string>
+    <string name="frecuencia_sabados_h">Sábados (6,10 min)</string>
+    <string name="frecuencia_domingos_h">Domingos y Feriados (6,10 min)</string>
     <string name="linea_h_hacia_arriba">a Las Heras  </string>
     <string name="linea_h_hacia_abajo">a Hospitales  </string>
     <string name="h_in_construction"> habilitada</string>

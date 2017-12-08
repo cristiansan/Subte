@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/scrollView2"
+    android:background="@color/colorBlack"
     >
 <LinearLayout
     android:layout_width="match_parent"
@@ -24,6 +25,15 @@
         android:textSize="18dp"
         android:textColor="#ffffff"
         android:gravity="left" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:elevation="@dimen/shadow"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center"
+        android:layout_weight="1"
+        android:src="@android:drawable/ic_dialog_email"
+        android:onClick="btnContactUs"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,7 +57,12 @@
         android:text="@string/rate"
         android:textSize="18dp"
         android:textColor="#ffffff"
-        android:gravity="left" />
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btc"/>
 
 </LinearLayout>
 </ScrollView>
