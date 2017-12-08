@@ -21,10 +21,6 @@ public class Contact extends AppCompatActivity{
 
     public void btnContactUs(final View v)
     {
-
-
-
-
         String contenido_email = "";
         contenido_email += "\n" + "OS version: "+ Build.VERSION.RELEASE;
         contenido_email += "\n" + "Display: "+ Build.DISPLAY;
@@ -44,4 +40,5 @@ public class Contact extends AppCompatActivity{
         email.setType("message/rfc822");
         startActivityForResult(Intent.createChooser(email, getString(R.string.choose_email)), 555);
     }
+
 }

@@ -5,7 +5,8 @@
     <string name="who_am_i">This APP allow you to see the Subway names, times, combinations and street names and numbers.\n\n
         If you have information to fix, or any comment please contact me.</string>
     <string name="vertical">If the information doesn´t fit in your screen... rotate the phone:</string>
-    <string name="rate">Please rate this app in the store and help me with a good score.</string>
+    <string name="rate">Please rate this app in the store and help me with a good score.\n\n
+        BTC donations here: 19oenMRPHrab8V2oXQmGuYjPit4CG8CzVk</string>
     <string name="contact_email">tangolytics@gmail.com</string>
     <string name="choose_email">Choose your email</string>
     <string name="lineas">Lines</string>
@@ -17,7 +18,7 @@
     <string name="splash_titulo_arriba">This space could be your</string>
     <string name="splash_titulo_abajo">Reserved for publicity</string>
     <string name="splash_cargando">Loading... </string>
-    <string name="version">v.1.35</string>
+    <string name="version">v.1.36</string>
 
 
     //Linea A
