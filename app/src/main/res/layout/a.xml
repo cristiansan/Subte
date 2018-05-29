@@ -1098,7 +1098,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center|left"
-                    android:text=" Av.Pueyrredón 2100"
+                    android:text=" Av.Rivadavia 2800"
                     android:singleLine="true"
                     android:textColor="@color/colorGrey"
 
